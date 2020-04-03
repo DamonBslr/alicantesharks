@@ -1,5 +1,5 @@
 header{
-	text-transform: courier;
+	text-transform: 
 }
 
 main{
@@ -22,4 +22,10 @@ h2{
 
 h3{
 
+}
+
+.box {
+     float: left;
+     padding: 20px;
+     background: transparent;
 }
