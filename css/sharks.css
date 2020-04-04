@@ -1,18 +1,14 @@
+body{
+	margin: 0 100px;
+}
 header{
-	text-transform: 
-}
-
-main{
-
-}
-
-footer{
-
+font-family: 'Francois One', sans-serif;
 }
 
 h1{
-	color:blue;
-	font-size: 50px;
+	font-family: 'Francois One', sans-serif;
+	color:#1d85c7;
+	font-size: 40px;
 }
 
 h2{
@@ -20,12 +16,21 @@ h2{
 	font-size: 30px;
 }
 
-h3{
+ footer{
+ 	  background-color: #1d85c7;
+	  padding: 10px;
+	  text-align: center;
+	  color: white;
+	 }
 
+.flex-container {
+  display: flex;
+  background-color: transparent;
+  margin: 0px;
+  width: 100%
 }
 
-.box {
-     float: left;
-     padding: 20px;
-     background: transparent;
+main div{width: 50%}
+div{
+	margin: 50px
 }
