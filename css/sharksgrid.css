@@ -1,0 +1,61 @@
+body{
+	margin: 0 100px;
+}
+header{
+font-family: 'Francois One', sans-serif;
+
+}
+main{
+	margin: 0px;
+	padding: 20px;
+}
+
+h1{
+	font-family: 'Francois One', sans-serif;
+	color:#1d85c7;
+	font-size: 350%;
+	text-align: center;
+	padding-right: 60px;
+}
+
+h2{
+	color:blue;
+	font-size: 30px;
+}
+
+ footer{
+ 	  background-color: #1d85c7;
+	  padding: 0px;
+	  margin: 20px;
+	  text-align: center;
+	  color: white;
+	 }
+
+header .grid{
+	display: grid;
+	grid-template-columns: 150px 100%;
+	grid-gap: 20px;
+	padding: 20px;
+	margin: 0;
+}
+
+main .grid{
+	display: grid;
+	grid-template-columns: 50% 50%;
+	grid-gap: 20px;
+	padding: 0;
+	margin: 0px;
+}
+
+footer .grid{
+	display: grid;
+	grid-template-columns: 33% 33% 33%;
+	grid-gap: 20px;
+	padding: 0;
+	margin: 0;
+}
+
+.dia{
+	padding-left: 20px;
+	padding-right: 20px;
+}

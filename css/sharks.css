@@ -9,6 +9,7 @@ h1{
 	font-family: 'Francois One', sans-serif;
 	color:#1d85c7;
 	font-size: 40px;
+	text-align: justify;
 }
 
 h2{
@@ -28,6 +29,10 @@ h2{
   background-color: transparent;
   margin: 0px;
   width: 100%
+}
+
+header.flex-container{
+	background-color: black;
 }
 
 main div{width: 50%}
