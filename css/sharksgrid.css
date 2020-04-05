@@ -16,8 +16,8 @@ main{
 h1{
 	font-family: 'Francois One', sans-serif;
 	color:#1d85c7;
-	font-size: 100%;
-	text-align: left;
+	font-size: 415%;
+	text-align: right;
 	padding-right: 0;
 }
 
@@ -38,7 +38,7 @@ h2{
 
 header .grid{
 	display: grid;
-	grid-template-columns: 150px 80%;
+	grid-template-columns: 150px 85%;
 	grid-gap: 20px;
 	padding: 0px;
 	margin: 0;
