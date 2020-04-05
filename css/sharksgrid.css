@@ -95,3 +95,13 @@ display: grid;
 }
 */
 
+.grid-insta{
+	display: grid;
+	grid-template-columns: 50% 50%;
+	grid-gap: 20px;
+	padding: 0;
+	margin: 20px;
+	align-content: center;
+	background-color: transparent;
+}
+
