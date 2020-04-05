@@ -98,9 +98,9 @@ display: grid;
 .grid-insta{
 	display: grid;
 	grid-template-columns: 50% 50%;
-	grid-gap: 20px;
+	grid-gap: 0px;
 	padding: 0;
-	margin: 20px;
+	margin: 10px;
 	align-content: center;
 	background-color: transparent;
 }
