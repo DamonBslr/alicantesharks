@@ -77,3 +77,21 @@ ul .grid: {
 .dia{
 	padding-bottom: 20px;
 }
+
+
+.footer{
+
+}
+
+.grid .footer{
+
+display: grid;
+	grid-template-columns: 33% 33% 33%;
+	grid-gap: 0;
+	padding: 0;
+	margin: auto;
+	height: 75px;
+	width: auto;
+}
+
+
