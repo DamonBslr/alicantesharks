@@ -13,9 +13,9 @@ main{
 h1{
 	font-family: 'Francois One', sans-serif;
 	color:#1d85c7;
-	font-size: 350%;
-	text-align: center;
-	padding-right: 60px;
+	font-size: 357%;
+	text-align: left;
+	padding-right: 0;
 }
 
 h2{
@@ -33,7 +33,7 @@ h2{
 
 header .grid{
 	display: grid;
-	grid-template-columns: 150px 100%;
+	grid-template-columns: 150px 80%;
 	grid-gap: 20px;
 	padding: 20px;
 	margin: 0;
@@ -55,7 +55,9 @@ footer .grid{
 	margin: 0;
 }
 
+/*
 .dia{
 	padding-left: 20px;
 	padding-right: 20px;
 }
+*/
