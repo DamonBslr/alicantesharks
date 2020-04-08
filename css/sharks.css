@@ -1,41 +1,15 @@
-body{
-	margin: 0 100px;
-}
-header{
-font-family: 'Francois One', sans-serif;
-}
-
-h1{
-	font-family: 'Francois One', sans-serif;
-	color:#1d85c7;
-	font-size: 40px;
-	text-align: justify;
+.header-logo{
+	position: fixed;
+	top: 50px;
+	left: 100px;
+	width: 150px;
+	height: 150px;
 }
 
-h2{
-	color:blue;
-	font-size: 30px;
-}
-
- footer{
- 	  background-color: #1d85c7;
-	  padding: 10px;
-	  text-align: center;
-	  color: white;
-	 }
-
-.flex-container {
-  display: flex;
-  background-color: transparent;
-  margin: 0px;
-  width: 100%
-}
-
-header.flex-container{
-	background-color: black;
-}
-
-main div{width: 50%}
-div{
-	margin: 50px
+.heading{
+	position: fixed;
+	top: 50px
+	left: 300px;
+	width: 710px;
+	height: 150px;
 }
