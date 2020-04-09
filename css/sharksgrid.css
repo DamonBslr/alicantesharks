@@ -1,40 +1,43 @@
+/* All */
 body{
-	margin:0;
-	font-family: 'Oswald', sans-serif;
-}
-header{
-font-family: 'Francois One', sans-serif;
-padding: 10px;
-margin: 0px 100px;
-
-}
-main{
-	margin: 0px 100px;
-	padding: 10px;
+	font-family: 'Francois One', sans-serif;
 }
 
 h1{
-	font-family: 'Francois One', sans-serif;
 	color:#1d85c7;
-	font-size: 415%;
-	text-align: right;
-	padding-right: 0;
+	font-size: 4vw;
+	margin: 0px;
 }
 
 h2{
-	font-family: 'Francois One', sans-serif;
 	color:#1d85c7;
 	font-size: 30px;
 }
 
- footer{
- 	  background-color: #1d85c7;
-	  padding: 0px;
-	  margin: 0px;
-	  text-align: center;
-	  color: white;
-	  height: 300px;
-	 }
+p{
+	font-size: 15px;
+	color: black;
+}
+
+a{
+	text-decoration: none;
+	color: #1d85c7;
+}
+
+ul .grid: {
+	margin: 0;
+	height: 75px;
+}
+
+/* Header */
+header{
+	width: 88%;
+	height: 177px;
+	padding: 10px;
+	margin: -177px 0px 100px 100px;
+	text-align: left;
+	position: absolute;
+}
 
 header .grid{
 	display: grid;
@@ -44,13 +47,67 @@ header .grid{
 	margin: 0;
 }
 
+.nav-grid {
+	display: flex;
+	grid-template-columns: 25%;
+}
+
+.nav-grid > div {
+	font-size: 30px;
+	padding: 10px;
+	grid-template-columns: 25%;
+}
+
+.heading{
+	padding-left: 20px;
+
+}
+
+.navisub{
+
+	display: none;
+}
+
+div.hover:hover{
+	background-color: #eaf2fb;
+	border-radius: 0px 0px 5px 5px;
+}
+
+div.navisub div a{
+	font-size: 20px;
+}
+
+div.navisub div a:hover{
+}
+
+div.hover:hover div {
+	display: block;
+}
+
+/* Main */
+main{
+	margin: 0px 100px;
+	padding: 10px;
+	margin-top: 177px;
+}
+
 main .grid{
 	display: grid;
 	grid-template-columns: 50% 50%;
 	grid-gap: 20px;
 	padding: 0;
 	margin: 20px;
-	background-color: #eaf2fb
+	background-color: #eaf2fb;
+}
+
+/* Footer */
+footer{
+ 	 background-color: #1d85c7;
+	 padding: 0px;
+	 margin: 0px;
+	 text-align: center;
+	 color: white;
+	 height: 300px;
 }
 
 footer .grid{
@@ -63,45 +120,6 @@ footer .grid{
 
 }
 
-footer div{
-	margin: auto;
+a.footer{
+	color: white;
 }
-
-ul .grid: {
-	margin: auto;
-	height: 75px;
-}
-
-}
-
-.dia{
-	padding-bottom: 20px;
-}
-
-/*
-.footer{
-
-}
-
-.grid .footer{
-
-display: grid;
-	grid-template-columns: 33% 33% 33%;
-	grid-gap: 0;
-	padding: 0;
-	margin: auto;
-	height: 75px;
-	width: auto;
-}
-*/
-
-.grid-insta{
-	display: grid;
-	grid-template-columns: 50% 50%;
-	grid-gap: 0px;
-	padding: 0;
-	margin: 10px;
-	align-content: center;
-	background-color: transparent;
-}
-
