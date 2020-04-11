@@ -1,0 +1,113 @@
+*{
+	font-family: 'Francois One', sans-serif;
+	text-decoration-color: white;
+	text-decoration: none;
+}
+
+body{
+	margin: 0px;
+}
+header{
+	background-color: #1d85c7;
+	margin: 0px;
+	padding: 0px;
+	height: 100px;
+}
+
+a{
+	color: white;
+}
+
+.grid{
+	margin: 0px;
+	display: flex;
+	grid-template-columns: 25%;
+}
+
+div.heading h1{
+	color: white;
+	margin: 22px 22px 22px 22px
+}
+
+/* Navigation */
+
+	.nav-grid{
+ 	display: flex;
+ 	grid-template-columns: 25%;
+ 	margin: 25px 0px 0px 0px;
+ 	font-size: 20px;
+
+	}
+
+	.nav-element{
+	padding: 10px;
+	}
+
+	div.hover:hover div {
+	display: block;
+	}
+
+	.navisub{
+		margin-top: 36px;
+		margin-left: -10px;
+		position: absolute;
+		border-radius: 0px 0px 5px 5px;
+		display: none;
+		background-color: #1d85c7;
+	}
+
+	.nav-sub-element{
+		font-size: 15px;
+		padding: 5px 10px 5px 10px;
+		/*display: none;*/
+	}
+
+
+/* Main */
+main{
+}
+
+.background-image{
+		background-image: url("../img/sharks-teamfoto.jpg");
+		width: 1585px;
+		height: 682px;
+		max-width: 100%;
+		max-height: 100%;
+		background-size: contain;
+		background-repeat: no-repeat;
+}
+
+main .grid{
+	display: grid;
+	grid-template-columns: 50% 50%;
+	grid-gap: 20px;
+	padding: 0;
+	margin: 20px;
+	background-color: #eaf2fb;
+}
+
+/* Footer */
+footer{
+ 	 background-color: #1d85c7;
+	 padding: 0px;
+	 margin: 0px;
+	 text-align: center;
+	 color: white;
+	 height: 300px;
+}
+
+footer .grid{
+	display: grid;
+	grid-template-columns: 33% 33% 33%;
+	grid-gap: 0;
+	padding: 0;
+	margin: auto;
+	height: 75px;
+
+}
+
+a.footer{
+	color: white;
+}
+
+
