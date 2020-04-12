@@ -8,6 +8,9 @@ body{
 	margin: 0px;
 }
 
+h1{
+}
+
 h2{
 	color: #1d85c7;
 }
@@ -57,8 +60,9 @@ div.heading h1{
 	}
 
 	.navisub{
-		margin-top: 16px;
+		margin-top: 11px;
 		margin-left: -10px;
+		padding: 5px;
 		position: absolute;
 		border-radius: 0px 0px 5px 5px;
 		display: none;
@@ -73,6 +77,7 @@ div.heading h1{
 
 /* Main */
 main{
+	margin: 50px 100px 50px 100px;
 }
 
 main a{
@@ -80,12 +85,13 @@ main a{
 }
 
 .main-heading{
-	margin: 50px 100px 0px 100px;
+	margin: 50px 100px 50px 100px;
+	text-align: center;
 }
 
 .main-heading h1{
 	color: black;
-	font-size: 20px;
+	font-size: 30px;
 }
 
 .background-image{
@@ -142,7 +148,7 @@ ul {list-style-type: none;}
 
 	/* Change Month */
 .show{
-	margin: 50px 100px 50px 100px;
+	margin: 0px 0px 50px 0px;
 }
 
 .hide{
@@ -235,3 +241,28 @@ ul {list-style-type: none;}
 	}
 
 
+/* Clasificacion Table */
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #eaf2fb;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #eaf2fb;
+}
+
+.tablehead{
+	background-color: #1d85c7;
+}
+
+.tableheaditem{
+		border: 1px solid #1d85c7;
+		color: white;
+}
