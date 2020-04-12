@@ -1,0 +1,15 @@
+.header-logo{
+	position: fixed;
+	top: 50px;
+	left: 100px;
+	width: 150px;
+	height: 150px;
+}
+
+.heading{
+	position: fixed;
+	top: 50px
+	left: 300px;
+	width: 710px;
+	height: 150px;
+}

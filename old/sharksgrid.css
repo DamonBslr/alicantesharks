@@ -66,7 +66,15 @@ header .grid{
 .navisub{
 
 	display: none;
+	position: absolute;
+	background-color: white;
 }
+
+	.nav-sub-element{
+		font-size: 15px;
+		padding: 5px 10px 5px 10px;
+		/*display: none;*/
+	}
 
 .nav-element{
 	padding: 10px;
@@ -80,7 +88,7 @@ header .grid{
 }
 
 div.hover:hover{
-	background-color: #eaf2fb;
+	background-color: white;
 	border-radius: 0px 0px 5px 5px;
 }
 
