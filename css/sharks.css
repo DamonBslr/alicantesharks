@@ -123,13 +123,92 @@ a.footer{
 
 ul {list-style-type: none;}
 
-.calendario{
+
+/* Change Month */
+.marzo-hide{
+	display: none;
+
+}
+
+.marzo-show{
+	margin: 100px;
+}
+
+
+.abril-hide{
+	display: none;
+}
+.abril-show{
+	margin: 100px;
+
+}
+.mayo-hide{
+	display: none;
+
+}
+.mayo-show{
+	margin: 100px;
+}
+
+.junio-hide{
+	display: none;
+
+}
+.junio-show{
+	margin: 100px;
+}
+
+.julio-hide{
+	display: none;
+
+}
+.julio-show{
+	margin: 100px;
+}
+
+.agosto-hide{
+	display: none;
+
+}
+.agosto-show{
+	margin: 100px;
+}
+
+.septiembre-hide{
+	display: none;
+
+}
+.septiembre-show{
+	margin: 100px;
+}
+
+.oktubre-hide{
+	display: none;
+
+}
+.oktubre-show{
+	margin: 100px;
+}
+
+.noviembre-hide{
+	display: none;
+
+}
+.noviembre-show{
+	margin: 100px;
+}
+
+.diciembre-hide{
+	display: none;
+
+}
+.diciembre-show{
 	margin: 100px;
 }
 
 /* Month header */
 .month {
-  padding: 25px 25px;
+  padding: 15px 25px;
   width: auto;
   background: #00aeef;
   text-align: center;
@@ -151,13 +230,20 @@ ul {list-style-type: none;}
 /* Previous button inside month header */
 .month .prev {
   float: left;
-  padding-top: 10px;
+}
+
+.month .prev a:hover {
+  color: white
 }
 
 /* Next button */
 .month .next {
   float: right;
-  padding-top: 10px;
+}
+
+.month .next a:hover {
+  color: white;
+
 }
 
 /* Weekdays (Mon-Sun) */
