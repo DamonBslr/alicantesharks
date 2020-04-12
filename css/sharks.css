@@ -14,8 +14,16 @@ header{
 	height: 150px;
 }
 
+h2{
+	color: #1d85c7;
+}
+
 a{
 	color: white;
+}
+
+main a{
+	color: black;
 }
 
 .grid{
