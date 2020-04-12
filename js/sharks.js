@@ -8,94 +8,85 @@
 //marzo
 // Set previous button off!!
 function nextabril(){
-	document.getElementById('marzo').className = 'marzo-hide'
-	document.getElementById('abril').className = 'abril-show'
+	document.getElementById('marzo').className = 'hide'
+	document.getElementById('abril').className = 'show'
 }
-
 //abril
 function previousmarzo(){
-	document.getElementById('abril').className = 'abril-hide'
-	document.getElementById('marzo').className = 'marzo-show'
+	document.getElementById('abril').className = 'hide'
+	document.getElementById('marzo').className = 'show'
 }
 function nextmayo(){
-	document.getElementById('abril').className = 'abril-hide'
-	document.getElementById('mayo').className = 'mayo-show'
+	document.getElementById('abril').className = 'hide'
+	document.getElementById('mayo').className = 'show'
 }
-
 //mayo
 function previousabril(){
-	document.getElementById('mayo').className = 'mayo-hide'
-	document.getElementById('abril').className = 'abril-show'
+	document.getElementById('mayo').className = 'hide'
+	document.getElementById('abril').className = 'show'
 }
 function nextjunio(){
-	document.getElementById('mayo').className = 'mayo-hide'
-	document.getElementById('junio').className = 'junio-show'
+	document.getElementById('mayo').className = 'hide'
+	document.getElementById('junio').className = 'show'
 }
-
 //junio
 function previousmayo(){
-	document.getElementById('junio').className = 'junio-hide'
-	document.getElementById('mayo').className = 'mayo-show'
+	document.getElementById('junio').className = 'hide'
+	document.getElementById('mayo').className = 'show'
 }
 function nextjulio(){
-	document.getElementById('junio').className = 'junio-hide'
-	document.getElementById('julio').className = 'julio-show'
+	document.getElementById('junio').className = 'hide'
+	document.getElementById('julio').className = 'show'
 }
-
 //julio
 function previousjunio(){
-	document.getElementById('julio').className = 'julio-hide'
-	document.getElementById('junio').className = 'junio-show'
+	document.getElementById('julio').className = 'hide'
+	document.getElementById('junio').className = 'show'
 }
 function nextagosto(){
-	document.getElementById('julio').className = 'julio-hide'
-	document.getElementById('agosto').className = 'agosto-show'
+	document.getElementById('julio').className = 'hide'
+	document.getElementById('agosto').className = 'show'
 }
-
 //agosto
 function previousjulio(){
-	document.getElementById('agosto').className = 'agosto-hide'
-	document.getElementById('julio').className = 'julio-show'
+	document.getElementById('agosto').className = 'hide'
+	document.getElementById('julio').className = 'show'
 }
 function nextseptiembre(){
-	document.getElementById('agosto').className = 'agosto-hide'
-	document.getElementById('septiembre').className = 'septiembre-show'
+	document.getElementById('agosto').className = 'hide'
+	document.getElementById('septiembre').className = 'show'
 }
-
 //septiembre
 function previousagosto(){
-	document.getElementById('septiembre').className = 'septiembre-hide'
-	document.getElementById('agosto').className = 'agosto-show'
+	document.getElementById('septiembre').className = 'hide'
+	document.getElementById('agosto').className = 'show'
 }
 function nextoktubre(){
-	document.getElementById('septiembre').className = 'septiembre-hide'
-	document.getElementById('oktubre').className = 'oktubre-show'
+	document.getElementById('septiembre').className = 'hide'
+	document.getElementById('oktubre').className = 'show'
 }
-
 //oktubre
 function previousseptiembre(){
-	document.getElementById('oktubre').className = 'oktubre-hide'
-	document.getElementById('septiembre').className = 'septiembre-show'
+	document.getElementById('oktubre').className = 'hide'
+	document.getElementById('septiembre').className = 'show'
 }
 function nextnoviembre(){
-	document.getElementById('oktubre').className = 'oktubre-hide'
-	document.getElementById('noviembre').className = 'noviembre-show'
+	document.getElementById('oktubre').className = 'hide'
+	document.getElementById('noviembre').className = 'show'
 }
-
 //noviembre
 function previousoktubre(){
-	document.getElementById('noviembre').className = 'noviembre-hide'
-	document.getElementById('oktubre').className = 'oktubre-show'
+	document.getElementById('noviembre').className = 'hide'
+	document.getElementById('oktubre').className = 'show'
 }
 function nextdiciembre(){
-	document.getElementById('noviembre').className = 'noviembre-hide'
-	document.getElementById('diciembre').className = 'diciembre-show'
+	document.getElementById('noviembre').className = 'hide'
+	document.getElementById('diciembre').className = 'show'
 }
-
 //diciembre
 function previousnoviembre(){
-	document.getElementById('diciembre').className = 'diciembre-hide'
-	document.getElementById('noviembre').className = 'noviembre-show'
+	document.getElementById('diciembre').className = 'hide'
+	document.getElementById('noviembre').className = 'show'
 }
 // Set next button off!!
 
