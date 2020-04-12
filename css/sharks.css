@@ -52,15 +52,15 @@ div.heading h1{
 	}
 
 	.nav-element{
-	padding: 10px;
+	padding: 10px 10px 20px 10px;
 	}
+
 
 	div.hover:hover div {
 	display: block;
 	}
 
 	.navisub{
-		margin-top: 11px;
 		margin-left: -10px;
 		padding: 5px;
 		position: absolute;
@@ -72,6 +72,10 @@ div.heading h1{
 	.nav-sub-element{
 		font-size: 15px;
 		padding: 5px 10px 5px 10px;
+	}
+
+	.first{
+		margin-top: 11px;
 	}
 
 
@@ -95,13 +99,8 @@ main a{
 }
 
 .background-image{
-		background-image: url("../img/sharks-teamfoto.jpg");
-		width: 1585px;
-		height: 682px;
-		max-width: 100%;
-		max-height: 100%;
-		background-size: contain;
-		background-repeat: no-repeat;
+  max-width: 100%;
+  height: auto;
 }
 
 main .grid{
