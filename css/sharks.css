@@ -2,6 +2,7 @@
 	font-family: 'Francois One', sans-serif;
 	text-decoration-color: white;
 	text-decoration: none;
+	box-sizing: border-box;
 }
 
 body{
@@ -13,6 +14,11 @@ h1{
 
 h2{
 	color: #1d85c7;
+	font-size: 1.5vw;
+}
+
+p{
+	font-size: 0.95vw;
 }
 
 a{
@@ -47,7 +53,7 @@ div.heading h1{
  	display: flex;
  	grid-template-columns: 25%;
  	margin: -5px 0px 0px 25px;
- 	font-size: 25px;
+ 	font-size: 1.5vw;
 
 	}
 
@@ -70,7 +76,7 @@ div.heading h1{
 	}
 
 	.nav-sub-element{
-		font-size: 15px;
+		font-size: 0.95vw;
 		padding: 5px 10px 5px 10px;
 	}
 
@@ -120,7 +126,7 @@ footer{
 	 margin: 0px;
 	 text-align: center;
 	 color: white;
-	 height: 300px;
+	 height: 16vw;
 }
 
 footer .grid{
@@ -129,12 +135,16 @@ footer .grid{
 	grid-gap: 0;
 	padding: 0;
 	margin: auto;
-	height: 75px;
 
 }
 
 a.footer{
 	color: white;
+	font-size: 0.9vw;
+}
+a a.footer{
+	color: white;
+	font-size: 0.9vw;
 }
 
 
