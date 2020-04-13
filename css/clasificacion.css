@@ -1,0 +1,24 @@
+/* Clasificacion Table */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #eaf2fb;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #eaf2fb;
+}
+
+.tablehead{
+	background-color: #1d85c7;
+}
+
+.tableheaditem{
+		border: 1px solid #1d85c7;
+		color: white;
+}
