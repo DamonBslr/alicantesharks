@@ -31,11 +31,12 @@ header{
 	background-color: #1d85c7;
 	margin: 0px;
 	padding: 0px;
-	height: 150px;
+	height: 9vw;
 }
 
 .grid{
-	margin: 0px;
+	margin: 0vw;
+	padding: 0vw;
 	display: flex;
 	grid-template-columns: 25%;
 }
@@ -44,21 +45,25 @@ div.heading h1{
 	font-size: 4vw;
 	margin: 0px;
 	color: white;
-	margin: 0px 0px 0px 25px;
 }
 
+	.logo{
+		height: 9vw;
+		width: auto;
+		margin: 0vw 4vw 0vw 4vw;
+	}
 	/* Navigation */
 
 	.nav-grid{
  	display: flex;
  	grid-template-columns: 25%;
- 	margin: -5px 0px 0px 25px;
+ 	margin: 0vw;
  	font-size: 1.5vw;
 
 	}
 
 	.nav-element{
-	padding: 10px 10px 20px 10px;
+	margin-right: 1vw;
 	}
 
 
@@ -67,32 +72,26 @@ div.heading h1{
 	}
 
 	.navisub{
-		margin-left: -10px;
-		padding: 5px;
+		margin-left: -0.7vw;
 		position: absolute;
-		border-radius: 0px 0px 5px 5px;
 		display: none;
 		background-color: #1d85c7;
 	}
 
 	.nav-sub-element{
 		font-size: 0.95vw;
-		padding: 5px 10px 5px 10px;
+		padding: 0vw 0.7vw 0.7vw 0.7vw;
 	}
 
 	.first{
-		margin-top: 11px;
-	}
-
-	.logo{
-		height: 9vw;
-		width: auto;
+		padding-top: 0.7vw;
+		margin-top: 1vw;
 	}
 
 
 /* Main */
 main{
-	margin: 50px 100px 50px 100px;
+	margin: 5vw 10vw 5vw 10vw;
 }
 
 main a{
@@ -100,13 +99,13 @@ main a{
 }
 
 .main-heading{
-	margin: 50px 100px 50px 100px;
+	margin: 5vw 10vw 5vw 10vw;
 	text-align: center;
 }
 
 .main-heading h1{
 	color: black;
-	font-size: 30px;
+	font-size: 3vw;
 }
 
 .background-image{
@@ -117,9 +116,9 @@ main a{
 main .grid{
 	display: grid;
 	grid-template-columns: 50% 50%;
-	grid-gap: 20px;
+	grid-gap: 2vw;
 	padding: 0;
-	margin: 20px;
+	margin: 2vw;
 	background-color: #eaf2fb;
 }
 
@@ -143,6 +142,10 @@ footer .grid{
 
 }
 
+.grid div{
+	height: 4vw;
+}
+
 a.footer{
 	color: white;
 	font-size: 0.9vw;
@@ -150,4 +153,9 @@ a.footer{
 a a.footer{
 	color: white;
 	font-size: 0.9vw;
+}
+
+.social{
+	width: 2vw;
+	height: 2vw;
 }
