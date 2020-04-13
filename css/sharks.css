@@ -159,3 +159,15 @@ a a.footer{
 	width: 2vw;
 	height: 2vw;
 }
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  div.desktop{display: none}
+}
+
+@media only screen and (min-width:; 768px) {
+  /* For Desktop: */
+  div.mobile{display: none;}
+}
+
+
