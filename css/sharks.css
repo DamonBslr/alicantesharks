@@ -84,6 +84,11 @@ div.heading h1{
 		margin-top: 11px;
 	}
 
+	.logo{
+		height: 9vw;
+		width: auto;
+	}
+
 
 /* Main */
 main{
