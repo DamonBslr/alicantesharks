@@ -8,7 +8,7 @@ h1.mobile{
 @media screen and (max-width: 600px){
 	.desktop {display: none;}
 	.mobile {display: block;}
-
+	.background-image{display: none;}
 	ul{
 		display: none;
 		list-style-type: none;
@@ -22,8 +22,8 @@ h1.mobile{
 	}
 
 	label{
-		margin-left: 49%;
-		margin-right: 50%;
+		margin-left: 48.5%;
+		
 	}
 
 	label.sub{
@@ -34,6 +34,7 @@ h1.mobile{
 	header{
 		background-color: #1d85c7;
 	}
+
 }
 
 .mobilenav{
@@ -41,11 +42,14 @@ padding: 2vw;
 }
 .mobile .logo{
 	display: block;
-	width: 30vw;
+	width: 60vw;
+	height: auto;
 	margin-right: auto;
 	margin-left: auto;
 
 }
+
+
 
 
 /* Hide the browser's default checkbox */
