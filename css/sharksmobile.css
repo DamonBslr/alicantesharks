@@ -5,7 +5,7 @@ h1.mobile{
 
 .mobile {display: none}
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 768px){
 	.desktop {display: none;}
 	.mobile {display: block;}
 	.background-image{display: none;}
