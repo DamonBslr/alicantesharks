@@ -1,12 +1,18 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
 <html>
-
+<!-- Online Sheets -->
 <link href="https://fonts.googleapis.com/css2?family=Francois+One&family=Oswald&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- Own Sheets -->
 <link rel="stylesheet" type="text/css" href="css/sharks.css">
+<link rel="stylesheet" type="text/css" href="css/sharksmobile.css">
 <link rel="stylesheet" type="text/css" href="css/clasificacion.css">
+
 <link rel="icon" href="img/sharks-logo.png">
+
 <script type="text/javascript" src="js/sharks.js"></script>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <head>
 	<title>Alicante Sharks Club Football Americano</title>
@@ -14,11 +20,12 @@
 
 <body>
 
-<!--header-->
-	<header>
+<!--Desktop Header-->
+	<header class="desktop">
+		<!-- Grid Style -->
 		<ul class="grid">
 			<!-- Logo -->
-			<a href="https://damonbslr.github.io/alicantesharks/"><img src="img/sharks-logo.png" width="150" height="150"></a>
+			<a href="https://damonbslr.github.io/alicantesharks/"><img class="logo" src="img/sharks-logo.png" width="150" height="150"></a>
 
 			<!-- Heading -->
 			<div class="heading"><h1>Alicante Sharks Club Football Americano</h1>
@@ -28,7 +35,7 @@
 					<div class="nav-element"><a href="noticias">Noticias</a></div>
 					<div class="nav-element hover"><a href="equipo">Equipo</a>
 						<div class="navisub">
-							<div class="nav-sub-element"><a href="equipo/senior-masculino">Senior Masculino</a></div>
+							<div class="nav-sub-element first"><a href="equipo/senior-masculino">Senior Masculino</a></div>
 							<div class="nav-sub-element"><a href="equipo/senior-femenino">Senior Femenino</a></div>
 							<div class="nav-sub-element"><a href="equipo/junior-masculino">Junior Masculino</a></div>
 							<div class="nav-sub-element"><a href="equipo/cadetes-mixto">Cadetes Mixto</a></div>
@@ -44,6 +51,32 @@
 				</div>
 			</div>
 		</ul>
+	</header>
+
+<!--Mobile Header-->
+	<header class="mobile">
+			<a href="https://damonbslr.github.io/alicantesharks/"><img class="logo" src="img/sharks-logo.png"></a>
+			<div class="mobilenav">
+				<input type="checkbox" id="checkbox1">
+			    <label for="checkbox1"><i class="fa fa-bars"></i></label>
+			    <ul>
+			        <li><a href="#">Noticias</a></li>
+			        <input type="checkbox" id="checkbox2">
+			    	<label class="sub" for="checkbox2">Equipo</label>
+			    	<ul>
+			    		<li><a href="#">Senior Masculino</a></li>
+			    		<li><a href="#">Senior Femenino</a></li>
+			    		<li><a href="#">Junior Masculino</a></li>
+			    		<li><a href="#">Cadete Mixto</a></li>
+			    		<li><a href="#">Flag Masculino</a></li>
+			    		<li><a href="#">Flag Femenino</a></li>
+			    	</ul>	
+
+
+			        <li><a href="#">Calendario</a></li>
+			        <li><a href="#">Clasificacion</a></li>
+			    </ul>
+			</div>
 	</header>
 
 <!--main-->

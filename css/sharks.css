@@ -80,6 +80,7 @@ div.heading h1{
 
 	.nav-sub-element{
 		font-size: 0.95vw;
+		background-color: #1d85c7;
 		padding: 0vw 0.7vw 0.7vw 0.7vw;
 	}
 
@@ -148,10 +149,6 @@ footer .grid{
 	padding: 0;
 	margin: auto;
 
-}
-
-.grid div{
-	height: 4vw;
 }
 
 a.footer{
