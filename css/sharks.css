@@ -9,9 +9,6 @@ body{
 	margin: 0px;
 }
 
-h1{
-}
-
 h2{
 	color: #1d85c7;
 	font-size: 1.5vw;
@@ -27,6 +24,9 @@ a{
 
 
 /* Header */
+
+@media screen and (min-width: 600px) {
+
 header{
 	background-color: #1d85c7;
 	margin: 0px;
@@ -87,7 +87,7 @@ div.heading h1{
 		padding-top: 0.7vw;
 		margin-top: 1vw;
 	}
-
+}
 
 /* Main */
 main{
@@ -113,13 +113,21 @@ main a{
   height: auto;
 }
 
-main .grid{
-	display: grid;
-	grid-template-columns: 50% 50%;
-	grid-gap: 2vw;
+main .row{
 	padding: 0;
-	margin: 2vw;
 	background-color: #eaf2fb;
+}
+
+.row img{
+	width: 100%;
+}
+
+.row h2{
+	margin-left: 5vw;
+}
+
+.row p{
+	margin-left: 5vw;
 }
 
 
@@ -160,15 +168,30 @@ a a.footer{
 	height: 2vw;
 }
 
-[class*="col-"] {
-  float: left;
-  padding: 15px;
-  border: 1px solid red;
+/* Columns */
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 
 /* For mobile phones: */
 [class*="col-"] {
   width: 100%;
+  float: left;
+}
+
+@media only screen and (max-width: 599px) {
+  h1{
+    text-align: center;
+    font-size: 4vw
+  }
+  h2{
+    text-align: center;
+    font-size: 3vw;
+  }
+  .logo{height: 25vw}
 }
 
 @media only screen and (min-width: 600px) {

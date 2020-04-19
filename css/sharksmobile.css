@@ -2,3 +2,59 @@ h1.mobile{
 	font-size: 3vw;
 	color: white;
 }
+
+.mobile {display: none}
+
+@media screen and (max-width: 600px){
+	.desktop {display: none;}
+	.mobile {display: block;}
+
+	ul{
+		display: none;
+		list-style-type: none;
+		text-align: center;
+		margin: 0;
+		padding: 0;
+		}
+
+	input[type=checkbox]:checked ~ ul {
+	    display: block;
+	}
+
+	label{
+		margin-left: 49%;
+		margin-right: 50%;
+	}
+
+	label.sub{
+		margin: 0;
+		color: white;
+	}
+
+	header{
+		background-color: #1d85c7;
+	}
+}
+
+.mobilenav{
+padding: 2vw;
+}
+.mobile .logo{
+	display: block;
+	width: 30vw;
+	margin-right: auto;
+	margin-left: auto;
+
+}
+
+
+/* Hide the browser's default checkbox */
+input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+

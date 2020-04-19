@@ -1,0 +1,16 @@
+@media screen and (min-width: 600px) {
+	.desktopnav {display: block;}
+	.mobilenav {display: none;}
+}
+
+@media screen and (max-width: 600px){
+	.desktopnav {display: none;}
+	.mobilenav {display: block;}
+
+	ul{display: none;}
+
+	input[type=checkbox]:checked ~ ul {
+	    display: block
+	}
+}
+
