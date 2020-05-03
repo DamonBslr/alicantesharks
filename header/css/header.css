@@ -1,0 +1,398 @@
+
+/* All
+------------------------------------------------------------------------------*/
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Oswald', sans-serif;
+}
+
+main {
+	margin: 5vw 10vw 5vw 10vw;
+}
+
+img {
+	width: 100%;
+}
+
+h3 {
+	color: grey;
+	font-size: 1.5vw;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+
+}
+
+p {
+	font-size: 1vw;
+	text-decoration: none;
+	color: black;
+}
+
+
+/* Mobile only
+-----------------------------------------------------------------------------------*/
+
+@media screen and (max-width: 829px) {
+
+	p {
+		font-size: 2vw;
+	}
+}
+
+
+
+/* Mobile and Tablet only
+------------------------------------------------------------------------------------*/
+
+@media screen and (max-width: 1200px){
+
+
+	.dia {
+		margin: 8vw 5vw 5vw 5vw;
+	}
+
+	h1 {
+		margin: 0;
+		padding: 0;
+		color: white;
+		font-size: 3.5vw;
+		padding: 1.5vw 1.85vw 1.5vw 1.85vw; 
+	}
+
+	.heading-title {
+
+	}
+
+	.sub-logo img {
+		width: auto;
+		height: 4vw;
+		padding: 2vw 1.85vw 2vw 1.85vw;
+
+	}
+
+	.fixed-header {
+		position: fixed;
+		background-color: #1d85c7;
+		height: 8vw;
+		width: 100%;
+	}
+
+	.dia img {
+	width: 50%;
+	margin-left: 25%;
+	margin-right: 25%;
+	}
+}
+
+
+/* Desktop only
+-------------------------------------------------------------------------------------------*/
+
+@media screen and (min-width: 1200px){
+
+
+	h1 {
+		color: white;
+		font-size: 4.5vw;
+		line-height: 0;
+		padding: 1vw 0vw 1vw 0vw;
+	}
+
+	p {
+		font-size: 1vw;
+	}
+
+	/* News
+	-------------------------------------*/
+		.news {
+			background-color: #eaf2fb;
+			margin: -2vw 0 0 0;
+		}
+
+		.news-content {
+			padding: 1vw;
+		}
+
+		.news h2 {
+			text-align: center;
+			color: #1d85c7;
+		}
+
+		.news p {
+			text-align: center;
+			padding-bottom: 1vw;
+		}
+
+	/* Header
+	-------------------------------------*/
+
+		.header {
+			width: 100%;
+			padding: 0 8.33% 0 8.33%;
+			background-color: #1d85c7;
+		}
+
+		.heading-title h1 {
+			font-size: 2vw;
+		}
+
+		.heading-title h1:hover {
+			color: black;
+		}
+
+		.sub-logo img {
+			width: 40%;
+			height: auto;
+			padding: 1vw 0 1vw 0vw;
+		}
+
+		.menu-grid {
+			display: flex;
+		 	grid-template-columns: 25%;
+		 	margin: 0vw;
+		 	font-size: 1.5vw;
+		 	padding: 1.5vw 0 0 0;
+		}
+
+		.menu-nav-item {
+			padding: 0vw 1vw 0vw 0vw;
+		}
+
+		.menu-nav-item a {
+			text-decoration: none;
+			color: white;
+		}
+
+		.menu-nav-item a:hover {
+			color: black;
+		}
+
+		.sub-menu {
+			position: absolute;
+			background-color: #1d85c7;
+			margin-left: -1vw;
+			padding: 0vw 1vw 0vw 1vw;
+			display: none;
+
+		}
+
+		div.menu-nav-item:hover nav {
+			display: block;
+		}
+
+		.sub-menu ul {
+			list-style-type: none;
+			padding: 0;
+			margin: 2vw 0 0 0;
+		}
+
+		.sub-menu-nav-item {
+			padding: 0vw 0vw 1vw 0vw;
+			font-size: 1vw;
+		}
+
+		.social-links-grid {
+			display: flex;
+		 	grid-template-columns: 25%;
+		 	margin: 0vw;
+		 	padding: 1.5vw 0 0 0;
+		}
+
+		.social-links-grid a {
+			margin: 0 0 0 1vw;
+		
+		}
+
+		
+		.social-links-grid i {
+			text-decoration: none;
+			color: #eaf2fb;
+			font-size: 2vw;
+		}
+
+		.social-links-grid i:hover {
+			color: black;
+		}
+		
+	/* Blog
+	-------------------------------------*/
+
+		.line {
+			border-bottom: 1px solid #e4e4e4;
+			margin: 0 0vw 1vw 0vw;
+			width: 80vw;
+		}
+
+		.blog-grid {
+			display: flex;
+		 	grid-template-columns: 25%;
+		 	margin: 0vw;
+		 	font-size: 1.5vw;
+		}
+
+		.blog-container {
+			display: flex;
+			width: 40vw;
+			height: 20vw;
+		 	grid-template-columns: 25%;
+		 	background-color: #eaf2fb;
+		}
+
+		.left {
+			margin: 0 1vw 0 0;
+		}
+
+		.blog-image {
+			width: 20vw;
+			height: 20vw;
+			padding: 0;
+		}
+
+		.blog-image img {
+			width: 20vw;
+			height: auto;
+		}
+
+		.blog-text {
+			background-color: #eaf2fb;
+			padding: 1vw;
+		}
+
+		.blog-text h2 {
+			margin: 0;
+			font-size: 1.5vw;
+			color: #1d85c7;
+		}
+
+		.blog-text p {
+			margin: 0;
+
+		}
+
+		.blog-link {
+			color: #1d85c7;
+			text-decoration: none;
+		}
+
+		.blog-text a:hover {
+			color: white;
+		}
+
+}
+
+
+
+/* Main 
+---------------------------------------------- */
+
+.footer-logo {
+	width: 100%;
+	height: 8vw;
+	margin: 5vw 0 0 0;
+	background-color: #1d85c7;
+}
+
+.footer-logo img {
+	position: absolute;
+	width: 14vw;
+	height: auto;
+	margin: -5vw 43vw 0 43vw;
+}
+
+.footer-social {
+	background-color: #1d85c7;
+}
+footer .social-links-grid {
+	padding: 0 0 0 45vw;
+}
+
+footer .social-links-grid i:hover {
+			color: white;
+		}
+
+
+
+
+.footer-content {
+	height: 10vw;
+	background-color: #1d85c7;
+	padding: 0 0 1vw 0;
+}
+
+.footer-grid {
+	display: flex;
+ 	grid-template-columns: 25%;
+ 	margin: 0vw;
+ 	padding: 0 0 0 0;
+}
+
+.footer-grid-left {
+	margin: 0 0 0 31.5vw;
+}
+
+.footer-grid-middle {
+	margin: 0 0 0 10vw;
+}
+
+.footer-grid-right {
+	margin: 0 0 0 10vw;
+}
+
+.footer-heading h2 {
+	color: white
+}
+
+ .footer-links a {
+ 	color: white;
+ 	display: block;
+ }
+
+ .footer-links a:hover {
+ 	color: black;
+ }
+
+/* Footer Color Animation
+---------------------------*/
+
+	.footer-logo.insta {
+		background-color: #507fa3;
+	}
+
+	.footer-social.insta {
+		background-color: #507fa3;
+	}
+
+	.footer-content.insta {
+		background-color: #507fa3;
+	}
+
+	/* Facebook Animation */
+	.footer-logo.facebook {
+		background-color: #3b5998;
+	}
+
+	.footer-social.facebook {
+		background-color: #3b5998;
+	}
+
+	.footer-content.facebook {
+		background-color: #3b5998;
+	}
+
+	/* Twitter Animation */
+	.footer-logo.twitter {
+		background-color: #00acee;
+	}
+
+	.footer-social.twitter {
+		background-color: #00acee;
+	}
+
+	.footer-content.twitter {
+		background-color: #00acee;
+	}
