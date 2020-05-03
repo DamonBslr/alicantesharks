@@ -179,6 +179,7 @@ p {
 			margin-left: -1vw;
 			padding: 0vw 1vw 0vw 1vw;
 			display: none;
+			border-radius: 5px;
 
 		}
 
@@ -312,6 +313,10 @@ footer .social-links-grid {
 	padding: 0 0 0 45vw;
 }
 
+footer .social-links-grid i {
+			color: #eaf2fb;
+		}
+
 footer .social-links-grid i:hover {
 			color: #eaf2fb;
 		}
@@ -345,7 +350,7 @@ footer .social-links-grid i:hover {
 }
 
 .footer-heading h2 {
-	color: #eaf2fb
+	color: #eaf2fb;
 }
 
  .footer-links a {
@@ -411,4 +416,20 @@ footer .social-links-grid i:hover {
 
 .header.twitter {
 	background-color: #00acee;
+}
+
+
+
+.damon {
+	position: absolute;
+	bottom: -60vw;
+	right: 1vw;
+}
+
+.damon a {
+	color: #1d85c7;
+}
+
+.damon a:hover {
+	color: #eaf2fb;
 }
