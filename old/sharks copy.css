@@ -1,0 +1,239 @@
+*{
+	font-family: 'Francois One', sans-serif;
+	text-decoration-color: white;
+	text-decoration: none;
+	box-sizing: border-box;
+}
+
+body{
+	margin: 0px;
+}
+
+h2{
+	color: #1d85c7;
+	font-size: 1.5vw;
+}
+
+p{
+	font-size: 0.95vw;
+}
+
+a{
+	color: white;
+}
+
+
+/* Header */
+
+@media screen and (min-width: 828px) {
+
+header{
+	background-color: #1d85c7;
+	margin: 0px;
+	padding: 0px;
+	height: 9vw;
+}
+
+.grid{
+	margin: 0vw;
+	padding: 0vw;
+	display: flex;
+	grid-template-columns: 25%;
+}
+
+div.heading h1{
+	font-size: 4vw;
+	margin: 0px;
+	color: white;
+}
+
+	.logo{
+		height: 9vw;
+		width: auto;
+		margin: 0vw 4vw 0vw 4vw;
+	}
+	/* Navigation */
+
+	.nav-grid{
+ 	display: flex;
+ 	grid-template-columns: 25%;
+ 	margin: 0vw;
+ 	font-size: 1.5vw;
+
+	}
+
+	.nav-element{
+	margin-right: 1vw;
+	}
+
+
+	div.hover:hover div {
+	display: block;
+	}
+
+	.navisub{
+		margin-left: -0.7vw;
+		position: absolute;
+		display: none;
+		background-color: #1d85c7;
+	}
+
+	.nav-sub-element{
+		font-size: 0.95vw;
+		background-color: #1d85c7;
+		padding: 0vw 0.7vw 0.7vw 0.7vw;
+	}
+
+	.first{
+		padding-top: 0.7vw;
+		margin-top: 1vw;
+	}
+}
+
+/* Main */
+main{
+	margin: 5vw 10vw 5vw 10vw;
+}
+
+main a{
+	color: black;
+}
+
+.main-heading{
+	margin: 5vw 10vw 5vw 10vw;
+	text-align: center;
+}
+
+.main-heading h1{
+	color: black;
+	font-size: 3vw;
+}
+
+.background-image{
+  max-width: 100%;
+  height: auto;
+}
+
+main .row{
+	padding: 0;
+	background-color: #eaf2fb;
+	margin: 0;
+}
+
+.row img{
+	width: 100%;
+}
+
+.row h2{
+	margin-left: 5vw;
+}
+
+.row p{
+	margin-left: 5vw;
+}
+
+
+/* Footer */
+footer{
+ 	 background-color: #1d85c7;
+	 padding: 0px;
+	 margin: 0px;
+	 text-align: center;
+	 color: white;
+	 height: 16vw;
+}
+
+footer .grid{
+	display: grid;
+	grid-template-columns: 33% 33% 33%;
+	grid-gap: 0;
+	padding: 0;
+	margin: auto;
+
+}
+
+a.footer{
+	color: white;
+	font-size: 0.9vw;
+}
+a a.footer{
+	color: white;
+	font-size: 0.9vw;
+}
+
+.social{
+	width: 2vw;
+	height: 2vw;
+}
+
+/* Columns */
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+  float: left;
+}
+
+@media only screen and (max-width: 828px) {
+  h1{
+    text-align: center;
+    font-size: 4vw
+  }
+  h2{
+    text-align: center;
+    font-size: 3vw;
+  }
+  .logo{height: 25vw}
+}
+
+@media only screen and (min-width: 828px) {
+  /* For tablets: */
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+
+@media only screen and (min-width: 828px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+
+
+
+@media only screen and (max-width: 828px) {
+  /* For mobile phones: */
+  div.desktop{display: none}
+}
+
+@media only screen and (min-width:; 828px) {
+  /* For Desktop: */
+  div.mobile{display: none;}
+}
+
+

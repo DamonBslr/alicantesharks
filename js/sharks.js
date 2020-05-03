@@ -1,104 +1,176 @@
+function show() {
+  var x = document.getElementById("primary-menu");
+  if (x.className === "menu") {
+    x.className += " show";
+  } else {
+    x.className = "menu";
+  }
+}
 
-//2020
+//Footer Color Change
 
-//enero
+//Insta Logo
 
-//febrero
+function instafooter() {
 
-//marzo
-// Set previous button off!!
-function nextabril(){
-	document.getElementById('marzo').className = 'hide'
-	document.getElementById('abril').className = 'show'
-}
-//abril
-function previousmarzo(){
-	document.getElementById('abril').className = 'hide'
-	document.getElementById('marzo').className = 'show'
-}
-function nextmayo(){
-	document.getElementById('abril').className = 'hide'
-	document.getElementById('mayo').className = 'show'
-}
-//mayo
-function previousabril(){
-	document.getElementById('mayo').className = 'hide'
-	document.getElementById('abril').className = 'show'
-}
-function nextjunio(){
-	document.getElementById('mayo').className = 'hide'
-	document.getElementById('junio').className = 'show'
-}
-//junio
-function previousmayo(){
-	document.getElementById('junio').className = 'hide'
-	document.getElementById('mayo').className = 'show'
-}
-function nextjulio(){
-	document.getElementById('junio').className = 'hide'
-	document.getElementById('julio').className = 'show'
-}
-//julio
-function previousjunio(){
-	document.getElementById('julio').className = 'hide'
-	document.getElementById('junio').className = 'show'
-}
-function nextagosto(){
-	document.getElementById('julio').className = 'hide'
-	document.getElementById('agosto').className = 'show'
-}
-//agosto
-function previousjulio(){
-	document.getElementById('agosto').className = 'hide'
-	document.getElementById('julio').className = 'show'
-}
-function nextseptiembre(){
-	document.getElementById('agosto').className = 'hide'
-	document.getElementById('septiembre').className = 'show'
-}
-//septiembre
-function previousagosto(){
-	document.getElementById('septiembre').className = 'hide'
-	document.getElementById('agosto').className = 'show'
-}
-function nextoktubre(){
-	document.getElementById('septiembre').className = 'hide'
-	document.getElementById('oktubre').className = 'show'
-}
-//oktubre
-function previousseptiembre(){
-	document.getElementById('oktubre').className = 'hide'
-	document.getElementById('septiembre').className = 'show'
-}
-function nextnoviembre(){
-	document.getElementById('oktubre').className = 'hide'
-	document.getElementById('noviembre').className = 'show'
-}
-//noviembre
-function previousoktubre(){
-	document.getElementById('noviembre').className = 'hide'
-	document.getElementById('oktubre').className = 'show'
-}
-function nextdiciembre(){
-	document.getElementById('noviembre').className = 'hide'
-	document.getElementById('diciembre').className = 'show'
-}
-//diciembre
-function previousnoviembre(){
-	document.getElementById('diciembre').className = 'hide'
-	document.getElementById('noviembre').className = 'show'
-}
-// Set next button off!!
+  var x = document.getElementById("footer1");
+  if (x.className === "footer-logo") {
+    x.className += " insta";
+  } else {
+    x.className = "footer-logo";
+  }
 
-//2021
+  var x = document.getElementById("footer2");
+  if (x.className === "footer-social") {
+    x.className += " insta";
+  } else {
+    x.className = "footer-social";
+  }
+
+  var x = document.getElementById("footer3");
+  if (x.className === "footer-content") {
+    x.className += " insta";
+  } else {
+    x.className = "footer-content";
+  }
+
+}
+
+//Facebook Logo
+
+function facebookfooter() {
+
+  var x = document.getElementById("footer1");
+  if (x.className === "footer-logo") {
+    x.className += " facebook";
+  } else {
+    x.className = "footer-logo";
+  }
+
+  var x = document.getElementById("footer2");
+  if (x.className === "footer-social") {
+    x.className += " facebook";
+  } else {
+    x.className = "footer-social";
+  }
+
+  var x = document.getElementById("footer3");
+  if (x.className === "footer-content") {
+    x.className += " facebook";
+  } else {
+    x.className = "footer-content";
+  }
+
+}
+
+//Twitter Logo
+
+function twitterfooter() {
+
+  var x = document.getElementById("footer1");
+  if (x.className === "footer-logo") {
+    x.className += " twitter";
+  } else {
+    x.className = "footer-logo";
+  }
+
+  var x = document.getElementById("footer2");
+  if (x.className === "footer-social") {
+    x.className += " twitter";
+  } else {
+    x.className = "footer-social";
+  }
+
+  var x = document.getElementById("footer3");
+  if (x.className === "footer-content") {
+    x.className += " twitter";
+  } else {
+    x.className = "footer-content";
+  }
+
+}
+
+//Normal
+
+function normalfooter() {
+
+  var x = document.getElementById("footer1");
+  if (x.className === "footer-logo insta") {
+    x.className = "footer-logo";
+  } else {
+    x.className = "footer-logo";
+  }
+
+  var x = document.getElementById("footer2");
+  if (x.className === "footer-social insta") {
+    x.className = "footer-social";
+  } else {
+    x.className = "footer-social";
+  }
+   
+  var x = document.getElementById("footer3");
+  if (x.className === "footer-content insta") {
+    x.className = "footer-content";
+  } else {
+    x.className = "footer-content";
+  }
+
+}
 
 
+//Header Color Change
 
+//Insta Logo
 
+function instaheader() {
 
+  var x = document.getElementById("header");
+  if (x.className === "desktop header") {
+    x.className += " insta";
+  } else {
+    x.className = "desktop header";
+  }
 
+}
 
+//Facebook Logo
 
+function facebookheader() {
+
+  var x = document.getElementById("header");
+  if (x.className === "desktop header") {
+    x.className += " facebook";
+  } else {
+    x.className = "desktop header";
+  }
+
+}
+
+//Twitter Logo
+
+function twitterheader() {
+
+  var x = document.getElementById("header");
+  if (x.className === "desktop header") {
+    x.className += " twitter";
+  } else {
+    x.className = "desktop header";
+  }
+
+}
+
+//Normal
+
+function normalheader() {
+
+  var x = document.getElementById("header");
+  if (x.className === "desktop header insta") {
+    x.className = "desktop header";
+  } else {
+    x.className = "desktop header";
+  }
+
+}
 
 
 
