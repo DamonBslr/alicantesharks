@@ -132,22 +132,27 @@ p {
 	-------------------------------------*/
 
 		.header {
-			width: 100%;
-			padding: 0 8.33% 0 8.33%;
+			padding: 0 0 0 8.33vw;
 			background-color: #1d85c7;
+			transition: all .3s ease
 		}
 
 		.heading-title h1 {
 			font-size: 2vw;
 			color: #eaf2fb;
+			padding: 1vw 0 0 0;
 		}
 
 		.heading-title h1:hover {
 			color: white;
 		}
 
+		.sub-logo {
+
+		}
+
 		.sub-logo img {
-			width: 40%;
+			width: 25%;
 			height: auto;
 			padding: 1vw 0 1vw 0vw;
 		}
@@ -157,7 +162,7 @@ p {
 		 	grid-template-columns: 25%;
 		 	margin: 0vw;
 		 	font-size: 1.5vw;
-		 	padding: 1.5vw 0 0 0;
+		 	padding: 1.5vw 0 0 3.5vw;
 		}
 
 		.menu-nav-item {
@@ -291,26 +296,29 @@ p {
 
 /* Main 
 ---------------------------------------------- */
+main {
+	padding: 0 0 5vw 0;
+}
+
+
+.footer {
+	background-color: #1d85c7;
+}
 
 .footer-logo {
 	width: 100%;
 	height: 8vw;
-	margin: 5vw 0 0 0;
-	background-color: #1d85c7;
+	margin: -5.5vw 0 0 0;
 }
 
 .footer-logo img {
-	position: absolute;
+	padding: 0 0 0 43vw;
 	width: 14vw;
 	height: auto;
-	margin: -5vw 43vw 0 43vw;
 }
 
-.footer-social {
-	background-color: #1d85c7;
-}
 footer .social-links-grid {
-	padding: 0 0 0 45vw;
+	padding: 5vw 0 0 45vw;
 }
 
 footer .social-links-grid i {
@@ -322,12 +330,8 @@ footer .social-links-grid i:hover {
 		}
 
 
-
-
 .footer-content {
-	height: 10vw;
-	background-color: #1d85c7;
-	padding: 0 0 1vw 0;
+	padding: 0;
 }
 
 .footer-grid {
@@ -365,42 +369,21 @@ footer .social-links-grid i:hover {
 /* Footer Color Animation
 ---------------------------*/
 
-	.footer-logo.insta {
+	.footer.insta {
 		background-color: #507fa3;
-	}
-
-	.footer-social.insta {
-		background-color: #507fa3;
-	}
-
-	.footer-content.insta {
-		background-color: #507fa3;
+		transition: all .3s ease
 	}
 
 	/* Facebook Animation */
-	.footer-logo.facebook {
+	.footer.facebook {
 		background-color: #3b5998;
-	}
-
-	.footer-social.facebook {
-		background-color: #3b5998;
-	}
-
-	.footer-content.facebook {
-		background-color: #3b5998;
+		transition: all .3s ease
 	}
 
 	/* Twitter Animation */
-	.footer-logo.twitter {
+	.footer.twitter {
 		background-color: #00acee;
-	}
-
-	.footer-social.twitter {
-		background-color: #00acee;
-	}
-
-	.footer-content.twitter {
-		background-color: #00acee;
+		transition: all .3s ease
 	}
 
 /* Header Color Animation
@@ -408,28 +391,34 @@ footer .social-links-grid i:hover {
 
 .header.insta {
 	background-color: #507fa3;
+	transition: all .3s ease
 }
 
 .header.facebook {
 	background-color: #3b5998;
+	transition: all .3s ease
 }
 
 .header.twitter {
 	background-color: #00acee;
+	transition: all .3s ease
 }
 
 
 
 .damon {
-	position: absolute;
-	bottom: -60vw;
-	right: 1vw;
+	margin: 0 0 1vw 90vw;
 }
 
 .damon a {
+	font-size: 1vw;
 	color: #1d85c7;
+	opacity: 0;
+	transition: all .3s ease
 }
 
 .damon a:hover {
 	color: #eaf2fb;
+	opacity: 1;
+	transition: all .3s ease
 }

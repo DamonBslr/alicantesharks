@@ -7,31 +7,19 @@ function show() {
   }
 }
 
+
+
 //Footer Color Change
 
 //Insta Logo
 
 function instafooter() {
 
-  var x = document.getElementById("footer1");
-  if (x.className === "footer-logo") {
+  var x = document.getElementById("footer");
+  if (x.className === "row footer") {
     x.className += " insta";
   } else {
-    x.className = "footer-logo";
-  }
-
-  var x = document.getElementById("footer2");
-  if (x.className === "footer-social") {
-    x.className += " insta";
-  } else {
-    x.className = "footer-social";
-  }
-
-  var x = document.getElementById("footer3");
-  if (x.className === "footer-content") {
-    x.className += " insta";
-  } else {
-    x.className = "footer-content";
+    x.className = "row footer";
   }
 
 }
@@ -40,25 +28,11 @@ function instafooter() {
 
 function facebookfooter() {
 
-  var x = document.getElementById("footer1");
-  if (x.className === "footer-logo") {
+  var x = document.getElementById("footer");
+  if (x.className === "row footer") {
     x.className += " facebook";
   } else {
-    x.className = "footer-logo";
-  }
-
-  var x = document.getElementById("footer2");
-  if (x.className === "footer-social") {
-    x.className += " facebook";
-  } else {
-    x.className = "footer-social";
-  }
-
-  var x = document.getElementById("footer3");
-  if (x.className === "footer-content") {
-    x.className += " facebook";
-  } else {
-    x.className = "footer-content";
+    x.className = "row footer";
   }
 
 }
@@ -67,25 +41,11 @@ function facebookfooter() {
 
 function twitterfooter() {
 
-  var x = document.getElementById("footer1");
-  if (x.className === "footer-logo") {
+  var x = document.getElementById("footer");
+  if (x.className === "row footer") {
     x.className += " twitter";
   } else {
-    x.className = "footer-logo";
-  }
-
-  var x = document.getElementById("footer2");
-  if (x.className === "footer-social") {
-    x.className += " twitter";
-  } else {
-    x.className = "footer-social";
-  }
-
-  var x = document.getElementById("footer3");
-  if (x.className === "footer-content") {
-    x.className += " twitter";
-  } else {
-    x.className = "footer-content";
+    x.className = "row footer";
   }
 
 }
@@ -94,25 +54,11 @@ function twitterfooter() {
 
 function normalfooter() {
 
-  var x = document.getElementById("footer1");
-  if (x.className === "footer-logo insta") {
-    x.className = "footer-logo";
+  var x = document.getElementById("footer");
+  if (x.className === "footer insta") {
+    x.className = "row footer";
   } else {
-    x.className = "footer-logo";
-  }
-
-  var x = document.getElementById("footer2");
-  if (x.className === "footer-social insta") {
-    x.className = "footer-social";
-  } else {
-    x.className = "footer-social";
-  }
-   
-  var x = document.getElementById("footer3");
-  if (x.className === "footer-content insta") {
-    x.className = "footer-content";
-  } else {
-    x.className = "footer-content";
+    x.className = "row footer";
   }
 
 }
@@ -171,7 +117,6 @@ function normalheader() {
   }
 
 }
-
 
 
 
