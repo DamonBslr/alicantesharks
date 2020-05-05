@@ -34,6 +34,7 @@ p {
 }
 
 
+
 /* Mobile only
 -----------------------------------------------------------------------------------*/
 
@@ -52,17 +53,27 @@ p {
 @media screen and (max-width: 1200px){
 
 
-	.dia {
-		margin: 8vw 5vw 5vw 5vw;
-	}
-
 	h1 {
 		margin: 0;
 		padding: 0;
 		color: #eaf2fb;
-		font-size: 3.5vw;
-		padding: 1.5vw 1.85vw 1.5vw 1.85vw; 
+		font-size: 5vw;
+		padding: 3vw 1.85vw 0vw 0vw; 
 	}
+
+	h2 {
+		font-size: 8vw;
+	}
+
+	h3 {
+		font-size: 4vw;
+	}
+
+	p {
+		font-size: 3vw;
+	}
+
+	/* heading */
 
 	.heading-title {
 
@@ -70,16 +81,20 @@ p {
 
 	.sub-logo img {
 		width: auto;
-		height: 4vw;
-		padding: 2vw 1.85vw 2vw 1.85vw;
+		height: 10vw;
+		padding: 2vw 1.85vw 0 0;
 
 	}
 
 	.fixed-header {
 		position: fixed;
 		background-color: #1d85c7;
-		height: 8vw;
-		width: 100%;
+		height: 15vw;
+		width: 100vw;
+	}
+
+	.dia {
+		margin: 20vw 5vw 5vw 5vw;
 	}
 
 	.dia img {
@@ -87,6 +102,60 @@ p {
 	margin-left: 25%;
 	margin-right: 25%;
 	}
+
+		/* News
+	--------------------------------------------------------------------*/
+		.news {
+			background-color: #eaf2fb;
+			margin: -2vw 0 0 0;
+		}
+
+		.news-content {
+			padding: 1vw;
+		}
+
+		.news h2 {
+			text-align: center;
+			color: #1d85c7;
+		}
+
+		.news p {
+			text-align: center;
+			padding-bottom: 1vw;
+		}
+
+		.news.single {
+			padding: 1vw 0 1vw 0;
+			margin: 0;
+		}
+
+		.line {
+				border-bottom: 1px solid #e4e4e4;
+				margin: 0 0vw 1vw 0vw;
+				width: 80vw;
+			}
+
+			.blog-image img {
+				width: 100%;
+				height: auto;
+			}
+
+			.blog-text {
+				background-color: #eaf2fb;
+				padding: 1vw;
+				margin: -1vw 0 5vw 0;
+			}
+
+			.blog-text h2 {
+				color: #1d85c7;
+				font-size: 5vw;
+			}
+
+			.blog-link {
+				color: #1d85c7;
+				text-decoration: none;
+				font-size: 3vw;
+			}
 }
 
 
@@ -107,29 +176,8 @@ p {
 		font-size: 1vw;
 	}
 
-	/* News
-	-------------------------------------*/
-		.news {
-			background-color: #eaf2fb;
-			margin: -2vw 0 0 0;
-		}
-
-		.news-content {
-			padding: 1vw;
-		}
-
-		.news h2 {
-			text-align: center;
-			color: #1d85c7;
-		}
-
-		.news p {
-			text-align: center;
-			padding-bottom: 1vw;
-		}
-
 	/* Header
-	-------------------------------------*/
+	-----------------------------------------------------------------------------*/
 
 		.header {
 			padding: 0 0 0 8.33vw;
@@ -152,7 +200,7 @@ p {
 		}
 
 		.sub-logo img {
-			width: 25%;
+			width: 40%;
 			height: auto;
 			padding: 1vw 0 1vw 0vw;
 		}
@@ -225,200 +273,232 @@ p {
 		.social-links-grid i:hover {
 			color: white;
 		}
-		
-	/* Blog
-	-------------------------------------*/
 
-		.line {
-			border-bottom: 1px solid #e4e4e4;
-			margin: 0 0vw 1vw 0vw;
-			width: 80vw;
-		}
-
-		.blog-grid {
-			display: flex;
-		 	grid-template-columns: 25%;
-		 	margin: 0vw;
-		 	font-size: 1.5vw;
-		}
-
-		.blog-container {
-			display: flex;
-			width: 40vw;
-			height: 20vw;
-		 	grid-template-columns: 25%;
-		 	background-color: #eaf2fb;
-		}
-
-		.left {
-			margin: 0 1vw 0 0;
-		}
-
-		.blog-image {
-			width: 20vw;
-			height: 20vw;
-			padding: 0;
-		}
-
-		.blog-image img {
-			width: 20vw;
-			height: auto;
-		}
-
-		.blog-text {
+	/* (main)
+	/* News
+	--------------------------------------------------------------------*/
+		.news {
 			background-color: #eaf2fb;
+			margin: -2vw 0 0 0;
+		}
+
+		.news-content {
 			padding: 1vw;
 		}
 
-		.blog-text h2 {
-			margin: 0;
-			font-size: 1.5vw;
+		.news h2 {
+			text-align: center;
 			color: #1d85c7;
 		}
 
-		.blog-text p {
+		.news p {
+			text-align: center;
+			padding-bottom: 1vw;
+		}
+
+		.news.single {
+			padding: 1vw 0 1vw 0;
 			margin: 0;
+		}
+
+	
+	/* Main
+	------------------------------------------------------------------------------------------------------*/
+		main {
+			padding: 0 0 5vw 0;
+		}
+
+		/* Blog
+		--------------------------------------------------------------------*/
+
+			.line {
+				border-bottom: 1px solid #e4e4e4;
+				margin: 0 0vw 1vw 0vw;
+				width: 80vw;
+			}
+
+			.blog-grid {
+				display: flex;
+			 	grid-template-columns: 25%;
+			 	margin: 0vw;
+			 	font-size: 1.5vw;
+			}
+
+			.blog-container {
+				display: flex;
+				width: 40vw;
+				height: 20vw;
+			 	grid-template-columns: 25%;
+			 	background-color: #eaf2fb;
+			}
+
+			.left {
+				margin: 0 1vw 0 0;
+			}
+
+			.blog-image {
+				width: 20vw;
+				height: 20vw;
+				padding: 0;
+			}
+
+			.blog-image img {
+				width: 20vw;
+				height: auto;
+			}
+
+			.blog-text {
+				background-color: #eaf2fb;
+				padding: 1vw;
+			}
+
+			.blog-text h2 {
+				margin: 0;
+				font-size: 1.5vw;
+				color: #1d85c7;
+			}
+
+			.blog-text p {
+				margin: 0;
+
+			}
+
+			.blog-link {
+				color: #1d85c7;
+				text-decoration: none;
+			}
+
+			.blog-text a:hover {
+				color: white;
+			}
 
 		}
 
-		.blog-link {
-			color: #1d85c7;
-			text-decoration: none;
+
+	/* Footer
+	------------------------------------------------------------------------------------*/
+
+		.footer {
+			background-color: #1d85c7;
+			transition: all .3s ease
 		}
 
-		.blog-text a:hover {
-			color: white;
+		.footer-logo {
+			width: 100%;
+			height: 8vw;
+			margin: -5.5vw 0 0 0;
 		}
 
-}
+		.footer-logo img {
+			padding: 0 0 0 43vw;
+			width: 14vw;
+			height: auto;
+		}
+
+		footer .social-links-grid {
+			padding: 5vw 0 0 45vw;
+		}
+
+		footer .social-links-grid i {
+					color: #eaf2fb;
+				}
+
+		footer .social-links-grid i:hover {
+					color: #eaf2fb;
+				}
 
 
+		.footer-content {
+			padding: 0;
+		}
 
-/* Main 
----------------------------------------------- */
-main {
-	padding: 0 0 5vw 0;
-}
+		.footer-grid {
+			display: flex;
+		 	grid-template-columns: 25%;
+		 	margin: 0vw;
+		 	padding: 0 0 0 0;
+		}
 
+		.footer-grid-left {
+			margin: 0 0 0 28.8vw;
+		}
 
-.footer {
-	background-color: #1d85c7;
-}
+		.footer-grid-middle {
+			margin: 0 10vw 0 10vw;
+		}
 
-.footer-logo {
-	width: 100%;
-	height: 8vw;
-	margin: -5.5vw 0 0 0;
-}
+		.footer-grid-right {
+			margin: 0 0 0 0;
+		}
 
-.footer-logo img {
-	padding: 0 0 0 43vw;
-	width: 14vw;
-	height: auto;
-}
-
-footer .social-links-grid {
-	padding: 5vw 0 0 45vw;
-}
-
-footer .social-links-grid i {
+		.footer-heading h2 {
 			color: #eaf2fb;
 		}
 
-footer .social-links-grid i:hover {
-			color: #eaf2fb;
-		}
+		 .footer-links a {
+		 	color: #eaf2fb;
+		 	display: block;
+		 }
 
-
-.footer-content {
-	padding: 0;
-}
-
-.footer-grid {
-	display: flex;
- 	grid-template-columns: 25%;
- 	margin: 0vw;
- 	padding: 0 0 0 0;
-}
-
-.footer-grid-left {
-	margin: 0 0 0 31.5vw;
-}
-
-.footer-grid-middle {
-	margin: 0 0 0 10vw;
-}
-
-.footer-grid-right {
-	margin: 0 0 0 10vw;
-}
-
-.footer-heading h2 {
-	color: #eaf2fb;
-}
-
- .footer-links a {
- 	color: #eaf2fb;
- 	display: block;
- }
-
- .footer-links a:hover {
- 	color: black;
- }
-
-/* Footer Color Animation
----------------------------*/
-
-	.footer.insta {
-		background-color: #507fa3;
-		transition: all .3s ease
-	}
-
-	/* Facebook Animation */
-	.footer.facebook {
-		background-color: #3b5998;
-		transition: all .3s ease
-	}
-
-	/* Twitter Animation */
-	.footer.twitter {
-		background-color: #00acee;
-		transition: all .3s ease
-	}
-
-/* Header Color Animation
----------------------------*/
-
-.header.insta {
-	background-color: #507fa3;
-	transition: all .3s ease
-}
-
-.header.facebook {
-	background-color: #3b5998;
-	transition: all .3s ease
-}
-
-.header.twitter {
-	background-color: #00acee;
-	transition: all .3s ease
-}
+		 .footer-links a:hover {
+		 	color: black;
+		 }
 
 
 
-.damon {
-	margin: 0 0 1vw 90vw;
-}
+		/* Footer Color Animation
+		---------------------------*/
 
-.damon a {
-	font-size: 1vw;
-	color: #1d85c7;
-	opacity: 0;
-	transition: all .3s ease
-}
+			.footer.insta {
+				background-color: #507fa3;
+				transition: all .3s ease
+			}
 
-.damon a:hover {
-	color: #eaf2fb;
-	opacity: 1;
-	transition: all .3s ease
-}
+			/* Facebook Animation */
+			.footer.facebook {
+				background-color: #3b5998;
+				transition: all .3s ease
+			}
+
+			/* Twitter Animation */
+			.footer.twitter {
+				background-color: #00acee;
+				transition: all .3s ease
+			}
+
+		/* Header Color Animation
+		---------------------------*/
+
+			.header.insta {
+				background-color: #507fa3;
+				transition: all .3s ease
+			}
+
+			.header.facebook {
+				background-color: #3b5998;
+				transition: all .3s ease
+			}
+
+			.header.twitter {
+				background-color: #00acee;
+				transition: all .3s ease
+			}
+
+
+		/* Credits */
+			.damon {
+				margin: 0 0 1vw 90vw;
+			}
+
+			.damon a {
+				font-size: 1vw;
+				color: #1d85c7;
+				opacity: 0;
+				transition: all .3s ease
+			}
+
+			.damon a:hover {
+				color: #eaf2fb;
+				opacity: 1;
+				transition: all .3s ease
+			}

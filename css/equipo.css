@@ -1,0 +1,29 @@
+.grid {
+	display: flex;
+	grid-template-columns: 25%;
+}
+
+.grid-image {
+	width: 50%;
+}
+
+.grid-text {
+	width: 50%;
+	background-color: #eaf2fb;
+	height: 24vw;
+	padding: 1vw;
+}
+
+.grid-text h2 {
+	margin: 0;
+	font-size: 1.5vw;
+	color: #1d85c7;
+}
+
+.grid-text p {
+
+}
+
+.hover-opacity:hover {
+	opacity: 0.9;
+}
