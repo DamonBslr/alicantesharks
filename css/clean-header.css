@@ -189,8 +189,7 @@ p {
 	-----------------------------------------------------------------------------*/
 
 		.header {
-			padding: 0 0 0 8.33vw;
-			background-color: #1d85c7;
+			padding: 0;
 			transition: all .3s ease
 		}
 
@@ -209,9 +208,9 @@ p {
 		}
 
 		.sub-logo img {
-			width: 40%;
+			width: 10%;
 			height: auto;
-			padding: 1vw 0 1vw 0vw;
+			padding: 1vw 0vw 1vw 45%;
 		}
 
 		.menu-grid {
@@ -219,52 +218,50 @@ p {
 		 	grid-template-columns: 25%;
 		 	margin: 0vw;
 		 	font-size: 1.5vw;
-		 	padding: 1.5vw 0 0 3.5vw;
+		 	margin: 0 34.2vw 0 34.2vw;
 		}
 
 		.menu-nav-item {
-			padding: 0vw 1vw 0vw 0vw;
+			padding: 0vw 0.5vw 0vw 0.5vw;
 		}
 
 		.menu-nav-item a {
 			text-decoration: none;
-			color: #eaf2fb;
+			color: #1d85c7;
 		}
 
 		.menu-nav-item a:hover {
-			color: white;
+			background-color: #eaf2fb;
 		}
 
-		.sub-menu {
-			position: absolute;
-			background-color: #1d85c7;
-			margin-left: -1vw;
-			padding: 0vw 1vw 0vw 1vw;
-			display: none;
-			border-radius: 5px;
-
+		.ch-sub-menu {
+			display: flex;
+			background-color: #eaf2fb;
+			padding: 0 0 0 14vw;
 		}
 
 		div.menu-nav-item:hover nav {
 			display: block;
 		}
 
-		.sub-menu ul {
-			list-style-type: none;
-			padding: 0;
-			margin: 2vw 0 0 0;
+		.sub-menu-nav-item {
+			padding: 1vw 1vw 1vw 1vw;
+			font-size: 1.4vw;
 		}
 
-		.sub-menu-nav-item {
-			padding: 0vw 0vw 1vw 0vw;
-			font-size: 1vw;
-		}
+		.sub-menu-nav-item a {
+			color: #1d85c7;
+			text-decoration: none ;
+		}		
 
 		.social-links-grid {
 			display: flex;
 		 	grid-template-columns: 25%;
 		 	margin: 0vw;
 		 	padding: 1.5vw 0 0 0;
+		 	position: absolute;
+		 	top: 2vw;
+		 	right: 5vw;
 		}
 
 		.social-links-grid a {
@@ -406,6 +403,7 @@ p {
 
 		footer .social-links-grid {
 			padding: 5vw 0 0 45vw;
+			position: sticky;
 		}
 
 		footer .social-links-grid i {

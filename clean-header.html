@@ -8,7 +8,7 @@
 	<!-- Stylesheets -->
 	<link rel="stylesheet" type="text/css" href="css/grid.css">
 	<link rel="stylesheet" type="text/css" href="css/menu.css">
-	<link rel="stylesheet" type="text/css" href="css/sharks.css">
+	<link rel="stylesheet" type="text/css" href="css/clean-header.css">
 	<!-- Java Script -->
 	<script type="text/javascript" src="js/sharks.js"></script>
 	<!-- Icon -->
@@ -21,6 +21,14 @@
 
 <body>
 
+	<div class="row">
+		<div class="col-6">
+			<div style="background-color: black">1/2</div>
+		</div>
+		<div class="col-6">
+			<div style="background-color: red">1/2</div>
+		</div>
+	</div>	
 	<!-- Mobile Header
 	---------------------------------------------------------------->
 	<header class="mobile fixed-header">
@@ -58,40 +66,23 @@
 
 	<header class="desktop header" id="header">
 		<div class="row">
-			<div class="col-1">
+			<div class="col-12">
 				<div>
 					<a class="sub-logo" href="https://damonbslr.github.io/alicantesharks/">
 						<img src="img/sharks-logo.png">
 					</a>
 				</div>
 			</div>
-			<div class="col-4">
-				<div class="heading-title">
-					<a href="#">
-						<h1>Alicante Sharks Club Football Americano</h1>
-					</a>
-				</div>
-			</div>
+		</div>
 
-			<div class="col-5">	
+		<div class="row">
+			<div class="col-12">	
 				<div class="menu-grid">
 					<div class="menu-nav-item">
 						<a href="noticias">Historia</a>
 					</div>
 					<div class="menu-nav-item hover">
 						<a href="equipo">Categorias</a>
-						<nav class="sub-menu">
-	                    <ul>
-	                        <li class="sub-menu-nav-item"><a href="#">Senior Masculino</a></li>
-	                        <li class="sub-menu-nav-item"><a href="#">Senior Femenino</a></li>
-	                        <li class="sub-menu-nav-item"><a href="#">Junior Mixto</a></li>
-	                        <li class="sub-menu-nav-item"><a href="">Cadete Mixto</a></li>
-	                        <li class="sub-menu-nav-item"><a href="">Flag Masculino</a></li>
-	                        <li class="sub-menu-nav-item"><a href="">Flag Femenino</a></li>
-	                        <li class="sub-menu-nav-item"><a href="">Flag Sub15</a></li>
-	                        <li class="sub-menu-nav-item"><a href="">Flag Sub13</a></li>
-	                    </ul>
-	                	</nav>
 	                </div>
                 	<div class="menu-nav-item">
                 		<a href="calendario">Calendario</a>
@@ -105,8 +96,24 @@
 		
 				</div>
 			</div>
+		</div>
 
-			<div class="col-1">
+		<div class="row">
+			<div class="col-12">
+				<div class="ch-sub-menu">
+                        <div class="sub-menu-nav-item"><a href="#">Senior Masculino</a></div>
+                        <div class="sub-menu-nav-item"><a href="#">Senior Femenino</a></div>
+                        <div class="sub-menu-nav-item"><a href="#">Junior Mixto</a></div>
+                        <div class="sub-menu-nav-item"><a href="">Cadete Mixto</a></div>
+                        <div class="sub-menu-nav-item"><a href="">Flag Masculino</a></div>
+                        <div class="sub-menu-nav-item"><a href="">Flag Femenino</a></div>
+                        <div class="sub-menu-nav-item"><a href="">Flag Sub15</a></div>
+                        <div class="sub-menu-nav-item"><a href="">Flag Sub13</a></div>
+	            </div>
+			</div>			
+		</div>
+
+			<div>
 				<div class="social-links-grid">
 					<a target="_blank" href="https://instagram.com/alicantesharks">
 						<i class="fab fa-instagram-square" onmouseover="instaheader()" onmouseout="normalheader()"></i>
