@@ -7,7 +7,7 @@
 @media screen and (max-width: 1200px) {
 
     .menu-toggle {
-        padding: 0 0vw 0vw 2.7vw;
+        padding: 0 0 0 2.7vw;
         z-index: 3;
         cursor: pointer;
         font-size: 10vw;
