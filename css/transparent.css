@@ -1,10 +1,66 @@
 /* All
 ------------------------------------------------------------------------------*/
 
+/* Fonts */
+
+@font-face {
+    font-family: 'LeagueSpartan';
+    src: url('../fonts/LeagueSpartan-Bold.eot');
+    src: url('../fonts/LeagueSpartan-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/LeagueSpartan-Bold.woff2') format('woff2'),
+        url('../fonts/LeagueSpartan-Bold.woff') format('woff'),
+        url('../fonts/LeagueSpartan-Bold.ttf') format('truetype'),
+        url('../fonts/LeagueSpartan-Bold.svg#LeagueSpartan-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AgharaPro';
+    src: url('../fonts/AgharaProRegular.eot');
+    src: url('../fonts/AgharaProRegular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/AgharaProRegular.woff2') format('woff2'),
+        url('../fonts/AgharaProRegular.woff') format('woff'),
+        url('../fonts/AgharaProRegular.ttf') format('truetype'),
+        url('../fonts/AgharaProRegular.svg#AgharaProRegular') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+html {
+	font-family: 'LeagueSpartan', sans-serif;
+}
+
+h1 {
+
+}
+
+h2 {
+	font-family: 'AgharaPro', sans-serif;
+}
+
+h3 {
+	color: #1d85c7;
+	font-size: 1.5vw;
+	margin: 0;
+}
+
+p {
+	font-size: 1vw;
+	text-decoration: none;
+	color: black;
+}
+
+a {
+	text-decoration: none;
+
+}
+/*----------------------------------------------------------------------------*/
+
+
 body {
 	margin: 0;
 	padding: 0;
-	font-family: 'Oswald', sans-serif;
 }
 
 main {
@@ -13,23 +69,6 @@ main {
 
 img {
 	width: 100%;
-}
-
-h3 {
-	color: grey;
-	font-size: 1.5vw;
-	margin: 0;
-}
-
-a {
-	text-decoration: none;
-
-}
-
-p {
-	font-size: 1vw;
-	text-decoration: none;
-	color: black;
 }
 
 
@@ -136,6 +175,10 @@ p {
 				width: 80vw;
 			}
 
+		.line h3 {
+			color: grey;
+		}
+
 			.blog-image img {
 				width: 100%;
 				height: auto;
@@ -178,6 +221,7 @@ p {
 		font-size: 4.5vw;
 		line-height: 0;
 		padding: 1vw 0vw 1vw 0vw;
+		font-family: 'AgharaPro', sans-serif;
 	}
 
 	p {
@@ -219,11 +263,11 @@ p {
 		 	grid-template-columns: 25%;
 		 	margin: 0vw;
 		 	font-size: 1.5vw;
-		 	padding: 1.5vw 0 0 3.5vw;
+		 	padding: 1.5vw 0 0 5vw;
 		}
 
 		.menu-nav-item {
-			padding: 0vw 1vw 1.2vw 0vw;
+			padding: 0vw 1.5vw 1.6vw 0vw;
 		}
 
 		.menu-nav-item a {
@@ -239,7 +283,7 @@ p {
 			position: absolute;
 			background-color: rgba(225,225,225,0.5);
 			width: 100vw;
-			margin: 1.2vw 0 0 -42.14vw;
+			margin: 1.65vw 0 0 -37.1vw;
 			display: none;
 			border-radius: 0;
 
@@ -254,7 +298,7 @@ p {
 			width: 100%;
 			list-style-type: none;
 			padding: 0;
-			margin: 1vw 0 0 20vw;
+			margin: 1vw 0 0 13vw;
 		}
 
 		.sub-menu-nav-item {
@@ -326,6 +370,10 @@ p {
 				border-bottom: 1px solid #e4e4e4;
 				margin: 0 0vw 1vw 0vw;
 				width: 80vw;
+			}
+
+			.line h3 {
+				color: grey;
 			}
 
 			.blog-grid {
@@ -431,11 +479,11 @@ p {
 		}
 
 		.footer-grid-left {
-			margin: 0 0 0 28.8vw;
+			margin: 0 0 0 25vw;
 		}
 
 		.footer-grid-middle {
-			margin: 0 10vw 0 10vw;
+			margin: 0 10vw 0 8vw;
 		}
 
 		.footer-grid-right {
