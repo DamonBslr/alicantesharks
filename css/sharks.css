@@ -1,11 +1,68 @@
-
 /* All
 ------------------------------------------------------------------------------*/
+
+/* Fonts */
+
+@font-face {
+    font-family: 'LeagueSpartan';
+    src: url('../fonts/LeagueSpartan-Bold.eot');
+    src: url('../fonts/LeagueSpartan-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/LeagueSpartan-Bold.woff2') format('woff2'),
+        url('../fonts/LeagueSpartan-Bold.woff') format('woff'),
+        url('../fonts/LeagueSpartan-Bold.ttf') format('truetype'),
+        url('../fonts/LeagueSpartan-Bold.svg#LeagueSpartan-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AgharaPro';
+    src: url('../fonts/AgharaProRegular.eot');
+    src: url('../fonts/AgharaProRegular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/AgharaProRegular.woff2') format('woff2'),
+        url('../fonts/AgharaProRegular.woff') format('woff'),
+        url('../fonts/AgharaProRegular.ttf') format('truetype'),
+        url('../fonts/AgharaProRegular.svg#AgharaProRegular') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+html {
+	font-family: 'LeagueSpartan', sans-serif;
+}
+
+h1 {
+
+}
+
+h2 {
+	font-size: 1.5vw;
+	font-family: 'AgharaPro', sans-serif;
+}
+
+h3 {
+	color: #1d85c7;
+	font-size: 1.5vw;
+	margin: 0;
+}
+
+p {
+	font-size: 1vw;
+	text-decoration: none;
+	color: black;
+}
+
+a {
+	font-size: 1vw;
+	text-decoration: none;
+
+}
+/*----------------------------------------------------------------------------*/
+
 
 body {
 	margin: 0;
 	padding: 0;
-	font-family: 'Oswald', sans-serif;
 }
 
 main {
@@ -16,21 +73,11 @@ img {
 	width: 100%;
 }
 
-h3 {
-	color: grey;
-	font-size: 1.5vw;
-	margin: 0;
-}
-
-a {
-	text-decoration: none;
-
-}
-
-p {
-	font-size: 1vw;
-	text-decoration: none;
-	color: black;
+.social-links-grid {
+	display: flex;
+ 	grid-template-columns: 25%;
+ 	margin: 0vw;
+ 	padding: 1.5vw 0 0 0;
 }
 
 
@@ -84,11 +131,11 @@ p {
 	.sub-logo img {
 		width: auto;
 		height: 10vw;
-		padding: 2vw 1.85vw 0 0;
+		margin: 3vw 0 0 10vw;
 
 	}
 
-	.fixed-header {
+	.header {
 		position: fixed;
 		background-color: #1d85c7;
 		height: 15vw;
@@ -137,6 +184,10 @@ p {
 				width: 80vw;
 			}
 
+		.line h3 {
+			color: grey;
+		}
+
 			.blog-image img {
 				width: 100%;
 				height: auto;
@@ -148,22 +199,24 @@ p {
 				margin: -1vw 0 5vw 0;
 			}
 
-			.blog-text h2 {
+			.blog-text h3 {
 				color: #1d85c7;
 				font-size: 5vw;
-				line-height: 0.5;
-				padding: 1vw 1vw 0 1vw;
+				padding: 2vw 2vw 1vw 2vw;
 			}
 
 			.blog-text p {
-				padding: 0 1vw 1vw 1vw;
+				padding: 1vw 2vw 1vw 2vw;
 			} 
 
 			.blog-link {
+				padding: 1vw 2vw 2vw 2vw;
+			}
+
+			.blog-link a {
 				color: #1d85c7;
 				text-decoration: none;
 				font-size: 3vw;
-				padding: 0 1vw 0 1vw;
 			}
 }
 
@@ -179,51 +232,59 @@ p {
 		font-size: 4.5vw;
 		line-height: 0;
 		padding: 1vw 0vw 1vw 0vw;
+		font-family: 'AgharaPro', sans-serif;
 	}
 
 	p {
 		font-size: 1vw;
 	}
 
+	.social-links-grid a {
+		margin: 0 0 0 1vw;
+	}
+
+	.social-links-grid i {
+		text-decoration: none;
+		color: white;
+		font-size: 2vw;
+	}
+
+	.social-links-grid i:hover {
+		color: white;
+	}
+
 	/* Header
 	-----------------------------------------------------------------------------*/
-
 		.header {
-			padding: 0 0 0 8.33vw;
-			background-color: #1d85c7;
-			transition: all .3s ease
-		}
-
-		.heading-title h1 {
-			font-size: 2vw;
-			color: #eaf2fb;
-			padding: 1vw 0 0 0;
-		}
-
-		.heading-title h1:hover {
-			color: white;
+			background-color: rgba(225, 225, 225, 0.5);
+			transition: all .3s ease;
+			position: absolute;
+			width: 100vw;
 		}
 
 		.sub-logo {
-
+			position: absolute;
+			top: 0vw;
+			left: 8.33vw;
 		}
 
 		.sub-logo img {
-			width: 40%;
+			width: 14vw;
 			height: auto;
-			padding: 1vw 0 1vw 0vw;
+			padding: 1vw 0 1vw 0;
 		}
 
-		.menu-grid {
+		.menu-nav {
 			display: flex;
 		 	grid-template-columns: 25%;
 		 	margin: 0vw;
 		 	font-size: 1.5vw;
-		 	padding: 1.5vw 0 0 3.5vw;
+		 	padding: 1.5vw 0 0 33.33vw;
+		 	list-style: none;
 		}
 
 		.menu-nav-item {
-			padding: 0vw 1vw 0vw 0vw;
+			padding: 0vw 1.5vw 1.6vw 0vw;
 		}
 
 		.menu-nav-item a {
@@ -237,50 +298,29 @@ p {
 
 		.sub-menu {
 			position: absolute;
-			background-color: #1d85c7;
-			margin-left: -1vw;
-			padding: 0vw 1vw 0vw 1vw;
+			background-color: rgba(225,225,225,0.5);
+			width: 100vw;
+			margin: 1.6vw 0 0 -46.65vw;
 			display: none;
-			border-radius: 5px;
+			border-radius: 0;
 
 		}
 
-		div.menu-nav-item:hover nav {
+		li.menu-nav-item:hover nav {
 			display: block;
 		}
 
 		.sub-menu ul {
+			display: flex;
+			width: 100%;
 			list-style-type: none;
 			padding: 0;
-			margin: 2vw 0 0 0;
+			margin: 1vw 0 0 13vw;
 		}
 
 		.sub-menu-nav-item {
-			padding: 0vw 0vw 1vw 0vw;
+			padding: 0vw 1vw 1vw 1vw;
 			font-size: 1vw;
-		}
-
-		.social-links-grid {
-			display: flex;
-		 	grid-template-columns: 25%;
-		 	margin: 0vw;
-		 	padding: 1.5vw 0 0 0;
-		}
-
-		.social-links-grid a {
-			margin: 0 0 0 1vw;
-		
-		}
-
-		
-		.social-links-grid i {
-			text-decoration: none;
-			color: #eaf2fb;
-			font-size: 2vw;
-		}
-
-		.social-links-grid i:hover {
-			color: white;
 		}
 
 	/* (main)
@@ -324,6 +364,10 @@ p {
 				border-bottom: 1px solid #e4e4e4;
 				margin: 0 0vw 1vw 0vw;
 				width: 80vw;
+			}
+
+			.line h3 {
+				color: grey;
 			}
 
 			.blog-grid {
@@ -373,6 +417,10 @@ p {
 			}
 
 			.blog-link {
+				padding: 1vw 0 0 0;
+			}
+
+			.blog-link a {
 				color: #1d85c7;
 				text-decoration: none;
 			}
@@ -382,132 +430,3 @@ p {
 			}
 
 		}
-
-
-	/* Footer
-	------------------------------------------------------------------------------------*/
-
-		.footer {
-			background-color: #1d85c7;
-			transition: all .3s ease
-		}
-
-		.footer-logo {
-			width: 100%;
-			height: 8vw;
-			margin: -5.5vw 0 0 0;
-		}
-
-		.footer-logo img {
-			padding: 0 0 0 43vw;
-			width: 14vw;
-			height: auto;
-		}
-
-		footer .social-links-grid {
-			padding: 5vw 0 0 45vw;
-		}
-
-		footer .social-links-grid i {
-					color: #eaf2fb;
-				}
-
-		footer .social-links-grid i:hover {
-					color: #eaf2fb;
-				}
-
-
-		.footer-content {
-			padding: 0;
-		}
-
-		.footer-grid {
-			display: flex;
-		 	grid-template-columns: 25%;
-		 	margin: 0vw;
-		 	padding: 0 0 0 0;
-		}
-
-		.footer-grid-left {
-			margin: 0 0 0 28.8vw;
-		}
-
-		.footer-grid-middle {
-			margin: 0 10vw 0 10vw;
-		}
-
-		.footer-grid-right {
-			margin: 0 0 0 0;
-		}
-
-		.footer-heading h2 {
-			color: #eaf2fb;
-		}
-
-		 .footer-links a {
-		 	color: #eaf2fb;
-		 	display: block;
-		 }
-
-		 .footer-links a:hover {
-		 	color: black;
-		 }
-
-
-
-		/* Footer Color Animation
-		---------------------------*/
-
-			.footer.insta {
-				background-color: #507fa3;
-				transition: all .3s ease
-			}
-
-			/* Facebook Animation */
-			.footer.facebook {
-				background-color: #3b5998;
-				transition: all .3s ease
-			}
-
-			/* Twitter Animation */
-			.footer.twitter {
-				background-color: #00acee;
-				transition: all .3s ease
-			}
-
-		/* Header Color Animation
-		---------------------------*/
-
-			.header.insta {
-				background-color: #507fa3;
-				transition: all .3s ease
-			}
-
-			.header.facebook {
-				background-color: #3b5998;
-				transition: all .3s ease
-			}
-
-			.header.twitter {
-				background-color: #00acee;
-				transition: all .3s ease
-			}
-
-
-		/* Credits */
-			.damon {
-				margin: 0 0 1vw 90vw;
-			}
-
-			.damon a {
-				font-size: 1vw;
-				color: #1d85c7;
-				opacity: 0;
-				transition: all .3s ease
-			}
-
-			.damon a:hover {
-				color: #eaf2fb;
-				opacity: 1;
-				transition: all .3s ease
-			}

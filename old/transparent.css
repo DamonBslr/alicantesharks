@@ -423,6 +423,10 @@ img {
 			}
 
 			.blog-link {
+				padding: 1vw 0 0 0;
+			}
+
+			.blog-link a {
 				color: #1d85c7;
 				text-decoration: none;
 			}
@@ -479,7 +483,7 @@ img {
 		}
 
 		.footer-grid-left {
-			margin: 0 0 0 25vw;
+			margin: 0 0 0 24.5vw;
 		}
 
 		.footer-grid-middle {
@@ -546,7 +550,7 @@ img {
 
 		/* Credits */
 			.damon {
-				margin: 0 0 1vw 90vw;
+				margin: 0 0 1vw 85vw;
 			}
 
 			.damon a {

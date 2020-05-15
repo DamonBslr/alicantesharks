@@ -1,0 +1,221 @@
+/* Desktop only
+-------------------------------------------------------------------------------------------*/
+
+@media screen and (min-width: 1200px){
+
+	/* Footer
+	------------------------------------------------------------------------------------*/
+
+		.footer {
+			background-color: #1d85c7;
+			transition: all .3s ease
+		}
+
+		.footer-logo {
+			width: 100%;
+			height: 8vw;
+			margin: -6.5vw 0 0 0;
+		}
+
+		.footer-logo img {
+			padding: 0 0 0 43vw;
+			width: 14vw;
+			height: auto;
+		}
+
+		footer .social-links-grid {
+			padding: 7vw 0 2vw 45vw;
+		}
+
+		footer .social-links-grid i {
+					color: #eaf2fb;
+				}
+
+		footer .social-links-grid i:hover {
+					color: #eaf2fb;
+				}
+
+
+		.footer-content {
+			padding: 0;
+		}
+
+		.footer-grid {
+			display: flex;
+		 	grid-template-columns: 25%;
+		 	margin: 0vw;
+		 	padding: 0 0 0 0;
+		}
+
+		.footer-grid-left {
+			margin: 0 0 0 25vw;
+		}
+
+		.footer-grid-middle {
+			margin: 0 10vw 0 8vw;
+		}
+
+		.footer-grid-right {
+			margin: 0 0 0 0;
+		}
+
+		.footer-heading h3 {
+			color: #eaf2fb;
+		}
+
+		 .footer-links a {
+		 	color: #eaf2fb;
+		 	display: block;
+		 }
+
+		 .footer-links a:hover {
+		 	color: black;
+		 }
+
+
+
+		/* Footer Color Animation
+		---------------------------*/
+
+			.footer.insta {
+				background-color: #507fa3;
+				transition: all .3s ease
+			}
+
+			/* Facebook Animation */
+			.footer.facebook {
+				background-color: #3b5998;
+				transition: all .3s ease
+			}
+
+			/* Twitter Animation */
+			.footer.twitter {
+				background-color: #00acee;
+				transition: all .3s ease
+			}
+
+		/* Header Color Animation
+		---------------------------*/
+
+			.header.insta {
+				background-color: #507fa3;
+				transition: all .3s ease
+			}
+
+			.header.facebook {
+				background-color: #3b5998;
+				transition: all .3s ease
+			}
+
+			.header.twitter {
+				background-color: #00acee;
+				transition: all .3s ease
+			}
+
+
+		/* Credits */
+			.damon {
+				margin: 0 0 1vw 85vw;
+			}
+
+			.damon a {
+				font-size: 1vw;
+				color: #1d85c7;
+				opacity: 0;
+				transition: all .3s ease
+			}
+
+			.damon a:hover {
+				color: #eaf2fb;
+				opacity: 1;
+				transition: all .3s ease
+			}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Mobile and Tablet only
+------------------------------------------------------------------------------------*/
+
+@media screen and (max-width: 1199px){
+	/* Footer
+	------------------------------------------------------------------------------------*/
+	.footer {
+		background-color: #1d85c7;
+		margin-top: 20vw;
+
+	}	
+	.footer-logo {
+		width: 100%;
+		height: 8vw;
+		margin: -19vw 0 0 0;
+	}
+
+	.footer-logo img {
+		padding: 0 0 0 30vw;
+		width: 40vw;
+		height: auto;
+	}
+
+
+	footer .social-links-grid {
+		padding: 35vw 0 5vw 39vw;
+	}
+
+	footer .social-links-grid i {
+		text-decoration: none;
+		color: #eaf2fb;
+		font-size: 5vw;
+	}
+
+	.social-links-grid a {
+		margin: 0 0 0 2vw;
+	}
+
+
+	.footer-grid {
+		display: flex;
+	 	grid-template-columns: 25%;
+	 	padding-bottom: 5vw;
+	}
+
+
+	.footer-grid-left {
+		margin: 0 0 0 15vw;
+	}
+
+	.footer-grid-middle {
+		margin: 0 10vw 0 8vw;
+	}
+
+	.footer-grid-right {
+		margin: 0 0 0 0;
+	}
+
+
+	.footer-heading h3 {
+		color: #eaf2fb;
+		font-size: 3vw;
+		line-height: 3;
+	}
+
+	 .footer-links a {
+	 	color: #eaf2fb;
+	 	display: block;
+	 	font-size: 1.5vw;
+	 	line-height: 2;
+	 }
+
+}
+

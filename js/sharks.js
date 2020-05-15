@@ -71,10 +71,10 @@ function normalfooter() {
 function instaheader() {
 
   var x = document.getElementById("header");
-  if (x.className === "desktop header") {
+  if (x.className === "header") {
     x.className += " insta";
   } else {
-    x.className = "desktop header";
+    x.className = "header";
   }
 
 }
@@ -84,10 +84,10 @@ function instaheader() {
 function facebookheader() {
 
   var x = document.getElementById("header");
-  if (x.className === "desktop header") {
+  if (x.className === "header") {
     x.className += " facebook";
   } else {
-    x.className = "desktop header";
+    x.className = "header";
   }
 
 }
@@ -97,10 +97,10 @@ function facebookheader() {
 function twitterheader() {
 
   var x = document.getElementById("header");
-  if (x.className === "desktop header") {
+  if (x.className === "header") {
     x.className += " twitter";
   } else {
-    x.className = "desktop header";
+    x.className = "header";
   }
 
 }
@@ -110,10 +110,10 @@ function twitterheader() {
 function normalheader() {
 
   var x = document.getElementById("header");
-  if (x.className === "desktop header insta") {
-    x.className = "desktop header";
+  if (x.className === "header insta") {
+    x.className = "header";
   } else {
-    x.className = "desktop header";
+    x.className = "header";
   }
 
 }
