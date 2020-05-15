@@ -7,6 +7,34 @@ function show() {
   }
 }
 
+function showcontent1() {
+  var y = document.getElementById("content1");
+  if (y.style.height === "0vw") {
+    y.style.height = "12vw";
+  } else {
+    y.style.height = "0vw";
+  }
+}
+
+
+
+function showcontent2() {
+  var y = document.getElementById("content2");
+  if (y.style.height === "0vw") {
+    y.style.height = "17vw";
+  } else {
+    y.style.height = "0vw";
+  }
+}
+
+function showcontent3() {
+  var y = document.getElementById("content3");
+  if (y.style.height === "0vw") {
+    y.style.height = "17vw";
+  } else {
+    y.style.height = "0vw";
+  }
+}
 
 
 //Footer Color Change
@@ -117,7 +145,3 @@ function normalheader() {
   }
 
 }
-
-
-
-

@@ -1,5 +1,9 @@
 
 
+.grid {
+  display: flex;
+}
+
 .row::after {
   content: "";
   clear: both;

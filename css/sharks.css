@@ -37,13 +37,16 @@ h1 {
 
 h2 {
 	font-size: 1.5vw;
-	font-family: 'AgharaPro', sans-serif;
 }
 
 h3 {
-	color: #1d85c7;
+	color: #04378B;
 	font-size: 1.5vw;
 	margin: 0;
+}
+
+h4 {
+	font-size: 1.25vw;
 }
 
 p {
@@ -63,6 +66,7 @@ a {
 body {
 	margin: 0;
 	padding: 0;
+	background-color: #eaf2fb;
 }
 
 main {
@@ -82,6 +86,15 @@ img {
 
 
 
+
+
+
+
+
+
+
+
+
 /* Mobile only
 -----------------------------------------------------------------------------------*/
 
@@ -91,6 +104,12 @@ img {
 		font-size: 2vw;
 	}
 }
+
+
+
+
+
+
 
 
 
@@ -122,40 +141,11 @@ img {
 		padding: 0;
 	}
 
-	/* heading */
 
-	.heading-title {
-
-	}
-
-	.sub-logo img {
-		width: auto;
-		height: 10vw;
-		margin: 3vw 0 0 10vw;
-
-	}
-
-	.header {
-		position: fixed;
-		background-color: #1d85c7;
-		height: 15vw;
-		width: 100vw;
-	}
-
-	.dia {
-		margin: 20vw 5vw 5vw 5vw;
-	}
-
-	.dia img {
-	width: 50%;
-	margin-left: 25%;
-	margin-right: 25%;
-	}
 
 		/* News
 	--------------------------------------------------------------------*/
 		.news {
-			background-color: #eaf2fb;
 			margin: -2vw 0 0 0;
 		}
 
@@ -165,7 +155,7 @@ img {
 
 		.news h2 {
 			text-align: center;
-			color: #1d85c7;
+			color: #04378B;
 		}
 
 		.news p {
@@ -194,31 +184,42 @@ img {
 			}
 
 			.blog-text {
-				background-color: #eaf2fb;
+				background-color: white;
 				padding: 1vw;
 				margin: -1vw 0 5vw 0;
 			}
 
 			.blog-text h3 {
-				color: #1d85c7;
+				color: #04378B;
 				font-size: 5vw;
 				padding: 2vw 2vw 1vw 2vw;
 			}
 
 			.blog-text p {
 				padding: 1vw 2vw 1vw 2vw;
-			} 
+			}
+
+			.blog-text a {
+				color: #04378B;
+			}
 
 			.blog-link {
 				padding: 1vw 2vw 2vw 2vw;
 			}
 
 			.blog-link a {
-				color: #1d85c7;
+				color: #04378B;
 				text-decoration: none;
 				font-size: 3vw;
 			}
 }
+
+
+
+
+
+
+
 
 
 /* Desktop only
@@ -232,11 +233,15 @@ img {
 		font-size: 4.5vw;
 		line-height: 0;
 		padding: 1vw 0vw 1vw 0vw;
-		font-family: 'AgharaPro', sans-serif;
 	}
 
 	p {
 		font-size: 1vw;
+		line-height: 1.5;
+	}
+
+	a {
+		line-height: 1.5;
 	}
 
 	.social-links-grid a {
@@ -253,81 +258,10 @@ img {
 		color: white;
 	}
 
-	/* Header
-	-----------------------------------------------------------------------------*/
-		.header {
-			background-color: rgba(225, 225, 225, 0.5);
-			transition: all .3s ease;
-			position: absolute;
-			width: 100vw;
-		}
-
-		.sub-logo {
-			position: absolute;
-			top: 0vw;
-			left: 8.33vw;
-		}
-
-		.sub-logo img {
-			width: 14vw;
-			height: auto;
-			padding: 1vw 0 1vw 0;
-		}
-
-		.menu-nav {
-			display: flex;
-		 	grid-template-columns: 25%;
-		 	margin: 0vw;
-		 	font-size: 1.5vw;
-		 	padding: 1.5vw 0 0 33.33vw;
-		 	list-style: none;
-		}
-
-		.menu-nav-item {
-			padding: 0vw 1.5vw 1.6vw 0vw;
-		}
-
-		.menu-nav-item a {
-			text-decoration: none;
-			color: #eaf2fb;
-		}
-
-		.menu-nav-item a:hover {
-			color: white;
-		}
-
-		.sub-menu {
-			position: absolute;
-			background-color: rgba(225,225,225,0.5);
-			width: 100vw;
-			margin: 1.6vw 0 0 -46.65vw;
-			display: none;
-			border-radius: 0;
-
-		}
-
-		li.menu-nav-item:hover nav {
-			display: block;
-		}
-
-		.sub-menu ul {
-			display: flex;
-			width: 100%;
-			list-style-type: none;
-			padding: 0;
-			margin: 1vw 0 0 13vw;
-		}
-
-		.sub-menu-nav-item {
-			padding: 0vw 1vw 1vw 1vw;
-			font-size: 1vw;
-		}
-
 	/* (main)
 	/* News
 	--------------------------------------------------------------------*/
 		.news {
-			background-color: #eaf2fb;
 			margin: -2vw 0 0 0;
 		}
 
@@ -337,7 +271,7 @@ img {
 
 		.news h2 {
 			text-align: center;
-			color: #1d85c7;
+			color: #04378B;
 		}
 
 		.news p {
@@ -375,6 +309,7 @@ img {
 			 	grid-template-columns: 25%;
 			 	margin: 0vw;
 			 	font-size: 1.5vw;
+			 	margin-bottom: 1vw;
 			}
 
 			.blog-container {
@@ -382,7 +317,6 @@ img {
 				width: 40vw;
 				height: 20vw;
 			 	grid-template-columns: 25%;
-			 	background-color: #eaf2fb;
 			}
 
 			.left {
@@ -401,32 +335,40 @@ img {
 			}
 
 			.blog-text {
-				background-color: #eaf2fb;
+				background-color: white;
 				padding: 1vw;
 			}
 
-			.blog-text h2 {
+			.blog-text h3 {
 				margin: 0;
 				font-size: 1.5vw;
-				color: #1d85c7;
+				color: black;
 			}
 
 			.blog-text p {
+				font-family: sans-serif;
 				margin: 0;
+				color: #777b80;
 
 			}
+
+			.blog-text a {
+				color: #04378B;
+			}
+
 
 			.blog-link {
 				padding: 1vw 0 0 0;
 			}
 
 			.blog-link a {
-				color: #1d85c7;
+				color: #04378B;
 				text-decoration: none;
+				font-size: 1.5vw;
 			}
 
 			.blog-text a:hover {
-				color: white;
+				color: #eaf2fb;
 			}
 
 		}

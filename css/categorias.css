@@ -1,0 +1,54 @@
+.news-content h1 {
+	color: #04378B;
+	text-align: center;
+	padding: 5vw 0 0 0;
+}
+
+
+.wrapper {
+	background-color: #d5dde5;
+	border: 0.5px solid #eaf2fb;
+}
+
+.wrapper i {
+	color: black;
+}
+
+.wrapper-title h4 {
+	color: black;
+	padding: 0 0 0 2vw;
+	line-height: 1;
+	margin: 0;
+}
+
+.angle {
+	padding: 1vw 0 1vw 1vw;
+	cursor: pointer;
+}
+
+.content-wrapper {
+	height: 0;
+	width: 100%;
+	z-index: 1;
+	background-color: white;
+	overflow-x: hidden;
+	transition: 0.5s;
+}
+
+
+.content p {
+	padding: 1vw 0 0 1vw;
+	font-size: 1vw;
+	color: black;
+}
+
+.content i {
+	color: black;
+	float: left;
+	padding: 1.2vw 1vw 0 1vw;
+}
+
+
+.clasificacion {
+	padding: 1vw;
+}
