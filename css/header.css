@@ -85,17 +85,18 @@
 		}
 
 		.sub-menu {
+			visibility: hidden;
+			transition: 0.5s;
 			position: absolute;
 			background-color: rgba(225,225,225,0.5);
 			width: 100vw;
 			margin: 1.6vw 0 0 -44.55vw;
-			display: none;
 			border-radius: 0;
 
 		}
 
 		li.menu-nav-item:hover nav {
-			display: block;
+			visibility: visible;
 		}
 
 		.sub-menu ul {
