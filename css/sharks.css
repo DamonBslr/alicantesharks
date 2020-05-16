@@ -314,9 +314,7 @@ img {
 			}
 
 			.blog-container {
-				display: flex;
 				width: 40vw;
-				height: 20vw;
 			 	grid-template-columns: 25%;
 			}
 
@@ -324,29 +322,35 @@ img {
 				margin: 0 1vw 0 0;
 			}
 
+
 			.blog-image {
-				width: 20vw;
 				height: 20vw;
-				padding: 0;
 			}
 
-			.blog-image img {
+
+			.half {
+				width: 40vw;
+		
+			}
+
+			.quarter {
 				width: 20vw;
-				height: auto;
 			}
 
 			.blog-text {
 				background-color: white;
-				padding: 1vw;
+				height: 10vw;
 			}
 
 			.blog-text h3 {
+				padding: 1vw 0 0 1vw;
 				margin: 0;
-				font-size: 1.5vw;
+				font-size: 1.25vw;
 				color: black;
 			}
 
 			.blog-text p {
+				padding: 0 0 0 1vw;
 				font-family: sans-serif;
 				margin: 0;
 				color: #777b80;
@@ -359,13 +363,17 @@ img {
 
 
 			.blog-link {
-				padding: 1vw 0 0 0;
+				font-family: 'LeagueSpartan';
+				padding: 0 0 0 1vw;
+				color: #04378B;
+				font-size: 1.2vw;
+
 			}
 
-			.blog-link a {
+			a .blog-link, .blog-link a {
 				color: #04378B;
 				text-decoration: none;
-				font-size: 1.5vw;
+				font-size: 1.2vw;
 			}
 
 			.blog-text a:hover {
