@@ -30,7 +30,7 @@ function rotate1() {
 function showcontent2() {
   var y = document.getElementById("content2");
   if (y.style.height === "0vw") {
-    y.style.height = "15.1vw";
+    y.style.height = "15.5vw";
   } else {
     y.style.height = "0vw";
   }
@@ -49,7 +49,7 @@ function rotate2() {
 function showcontent3() {
   var y = document.getElementById("content3");
   if (y.style.height === "0vw") {
-    y.style.height = "5.1vw";
+    y.style.height = "10.1vw";
   } else {
     y.style.height = "0vw";
   }

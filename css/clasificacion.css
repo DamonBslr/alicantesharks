@@ -7,11 +7,13 @@ table {
 td, th {
   border: 1px solid #eaf2fb;
   text-align: left;
-  padding: 8px;
+  padding: 0.5vw;
+  font-size: 1vw;
+  height: 1.5vw;
 }
 
 tr:nth-child(even) {
-  background-color: #eaf2fb;
+  background-color: white;
 }
 
 .tablehead{
