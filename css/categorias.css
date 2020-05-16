@@ -14,6 +14,10 @@
 	color: black;
 }
 
+.fas {
+	transition: 0.5s;
+}
+
 .wrapper-title h4 {
 	color: black;
 	padding: 0 0 0 2vw;
@@ -33,6 +37,7 @@
 	background-color: white;
 	overflow-x: hidden;
 	transition: 0.5s;
+		border: 0.5px solid #eaf2fb;
 }
 
 
@@ -45,10 +50,7 @@
 .content i {
 	color: black;
 	float: left;
-	padding: 1.2vw 1vw 0 1vw;
+	padding: 1vw 1vw 0 1vw;
 }
 
 
-.clasificacion {
-	padding: 1vw;
-}

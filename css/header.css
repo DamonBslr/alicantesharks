@@ -77,18 +77,18 @@
 
 		.menu-nav-item a {
 			text-decoration: none;
-			color: #eaf2fb;
+			color: #04378B;
 		}
 
 		.menu-nav-item a:hover {
-			color: white;
+			color: #eaf2fb;
 		}
 
 		.sub-menu {
 			position: absolute;
 			background-color: rgba(225,225,225,0.5);
 			width: 100vw;
-			margin: 1.6vw 0 0 -43.25vw;
+			margin: 1.6vw 0 0 -44.55vw;
 			display: none;
 			border-radius: 0;
 
@@ -103,7 +103,7 @@
 			width: 100%;
 			list-style-type: none;
 			padding: 0;
-			margin: 1vw 0 0 13vw;
+			margin: 1vw 0 0 15vw;
 		}
 
 		.sub-menu-nav-item {

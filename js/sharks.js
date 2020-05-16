@@ -16,23 +16,51 @@ function showcontent1() {
   }
 }
 
+function rotate1() {
+  var y = document.getElementById("angle1");
+  if (y.className === "fas fa-angle-right") {
+    y.className += " fa-rotate-90";
+  } else {
+    y.className = "fas fa-angle-right";
+  }
+}
+
 
 
 function showcontent2() {
   var y = document.getElementById("content2");
   if (y.style.height === "0vw") {
-    y.style.height = "17vw";
+    y.style.height = "15.1vw";
   } else {
     y.style.height = "0vw";
   }
 }
 
+function rotate2() {
+  var y = document.getElementById("angle2");
+  if (y.className === "fas fa-angle-right") {
+    y.className += " fa-rotate-90";
+  } else {
+    y.className = "fas fa-angle-right";
+  }
+}
+
+
 function showcontent3() {
   var y = document.getElementById("content3");
   if (y.style.height === "0vw") {
-    y.style.height = "17vw";
+    y.style.height = "5.1vw";
   } else {
     y.style.height = "0vw";
+  }
+}
+
+function rotate3() {
+  var y = document.getElementById("angle3");
+  if (y.className === "fas fa-angle-right") {
+    y.className += " fa-rotate-90";
+  } else {
+    y.className = "fas fa-angle-right";
   }
 }
 

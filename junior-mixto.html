@@ -112,8 +112,8 @@
 		<div class="row">
 			<div class="col-12">
 				<div class="wrapper">
-					<div class="angle grid" onclick="showcontent1()">
-						<div><i class="fas fa-angle-right"></i></div>
+					<div class="angle grid" onclick="showcontent1();rotate1()">
+						<div><i class="fas fa-angle-right" id="angle1"></i></div>
 						<div class="wrapper-title"><h4>Info</h4></div>
 					</div>
 				</div>
@@ -131,8 +131,8 @@
 		<div class="row">
 			<div class="col-12">
 				<div class="wrapper">
-					<div class="angle grid" onclick="showcontent2()">
-						<div><i class="fas fa-angle-right"></i></div>
+					<div class="angle grid" onclick="showcontent2();rotate2()">
+						<div><i class="fas fa-angle-right" id="angle2"></i></div>
 						<div class="wrapper-title"><h4>Clasificacion</h4></div>
 					</div>
 				</div>
@@ -142,31 +142,37 @@
 							<table>
 								<tr class="tablehead">
 									<th class="tableheaditem">Team</th>
+									<th class="tableheaditem">Games</th>
 							    	<th class="tableheaditem">Streak</th>
 							    	<th class="tableheaditem">Score</th>
 							 	</tr>
 							  	<tr>
 							    	<td>Alicante Sharks</td>
+							    	<td>1</td>
 							    	<td>0:0</td>
 							    	<td>0:0</td>
 							  	</tr>
 							  	<tr>
 							    	<td>Team2</td>
+							    	<td>0</td>
 							    	<td>0:0</td>
 							    	<td>0:0</td>
 							  	</tr>
 							  	<tr>
 							    	<td>Team3</td>
+							    	<td>0</td>
 							    	<td>0:0</td>
 							    	<td>0:0</td>
 							  	</tr>
 							  	<tr>
 							    	<td>Team4</td>
+							    	<td>0</td>
 							    	<td>0:0</td>
 							    	<td>0:0</td>
 							  	</tr>
 							  	<tr>
 							    	<td>Team5</td>
+							    	<td>0</td>
 							    	<td>0:0</td>
 							    	<td>0:0</td>
 							  	</tr>
@@ -181,14 +187,31 @@
 		<div class="row">
 			<div class="col-12">
 				<div class="wrapper">
-					<div class="angle grid" onclick="showcontent3()">
-						<div><i class="fas fa-angle-right"></i></div>
+					<div class="angle grid" onclick="showcontent3();rotate3()">
+						<div><i class="fas fa-angle-right" id="angle3"></i></div>
 						<div class="wrapper-title"><h4>Horarios</h4></div>
 					</div>
 				</div>
 				<div class="content-wrapper" id="content3" style="height: 0vw">
 					<div class="content">
-
+						<table>
+						  <tr class="tablehead">
+						    	<th class="tableheaditem">Date</th>
+						    	<th class="tableheaditem">Time</th>
+						    	<th class="tableheaditem">Location</th>
+						    	<th class="tableheaditem">Home team</th>
+						    	<th class="tableheaditem">Away team</th>
+						    	<th class="tableheaditem">Scroe</th>
+						 	</tr>
+							 <tr>
+						    	<td>26.01.2019</td>
+						    	<td>11:00</td>
+						    	<td>campo municipal antonio solana</td>
+						    	<td>Alicante Sharks</td>
+						    	<td>VLC Firebats</td>
+						    	<td>26:22</td>
+						 	</tr>
+						</table>
 					</div>
 				</div>
 			</div>
