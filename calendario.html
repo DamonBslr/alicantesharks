@@ -12,8 +12,10 @@
 	<link rel="stylesheet" type="text/css" href="css/header.css">
 	<link rel="stylesheet" type="text/css" href="css/footer.css">
 	<link rel="stylesheet" type="text/css" href="css/categorias.css">
+	<link rel="stylesheet" type="text/css" href="css/calendario.css">
 	<!-- Java Script -->
 	<script type="text/javascript" src="js/sharks.js"></script>
+	<script type="text/javascript" src="js/calendario.js"></script>
 	<!-- Icon -->
 	<link rel="icon" href="img/logos-sharks/logosharks-s.png">
 
@@ -105,7 +107,623 @@
 
 	<!--Main
 	-------------------------------------------------------------------------------------------------->
-	<main>
+	<main style="height: 30vw;">
+  		<div class="row">
+  			<div class="col-12">
+				<div class="calendario">
+					<!-- Marzo -->
+					<div class="hide" id="marzo">
+						<div class="month">
+		  					<ul>
+		    					<li class="prev"><a class="button" onclick="previousfebrero();">&#10094;</a></li> 
+		    					<li class="next"><a class="button" onclick="nextabril();">&#10095;</a></li>
+		    					<li>Marzo 2020</li>
+		  					</ul>
+						</div>
+
+						<ul class="weekdays">
+		  					<li>Mo</li>
+							<li>Tu</li>
+							<li>We</li>
+							<li>Th</li>
+							<li>Fr</li>
+							<li>Sa</li>
+							<li>Su</li>
+						</ul>
+
+						<ul class="days">
+			  				<li class="othermonth">24</li>
+			  				<li class="othermonth">25</li>
+							<li class="othermonth">26</li>
+							<li class="othermonth">27</li>
+			  				<li class="othermonth">28</li>
+			  				<li class="othermonth">29</li>
+			  				<li>1</li>
+			 				<li>2</li>
+			  				<li>3</li>
+			  				<li>4</li>
+			  				<li>5</li>
+			  				<li>6</li>
+			  				<li>7</li>
+			  				<li>8</li>
+			  				<li>9</li>
+			  				<li>10</li>
+			  				<li>11</li>
+			  				<li>12</li>
+			  				<li>13</li>
+			  				<li>14</li>
+			  				<li>15</li>
+			  				<li>16</li>
+			  				<li>17</li>
+			  				<li>18</li>
+			  				<li>19</li>
+			  				<li>20</li>
+			  				<li>21</li>
+			  				<li>22</li>
+			  				<li>23</li>
+			  				<li>24</li>
+			  				<li>25</li>
+			  				<li>26</li>
+			  				<li>27</li>
+			  				<li>28</li>
+			  				<li>29</li>
+			  				<li>30</li>
+			  				<li>31</li>
+			  				<li class="othermonth">2</li>
+			  				<li class="othermonth">3</li>
+			  				<li class="othermonth">4</li>
+			  				<li class="othermonth">5</li>
+						</ul>  
+					</div>
+				</div>
+			</div>
+
+<!-- Abril -->
+<div class="hide" id="abril">
+<div class="month">
+  <ul>
+    <li class="prev"><a class="button" onclick="previousmarzo();">&#10094;</a></li> 
+    <li class="next"><a class="button" onclick="nextmayo();">&#10095;</a></li>
+    <li>Abril 2020</li>
+  </ul>
+</div>
+
+<ul class="weekdays">
+  <li>Mo</li>
+  <li>Tu</li>
+  <li>We</li>
+  <li>Th</li>
+  <li>Fr</li>
+  <li>Sa</li>
+  <li>Su</li>
+</ul>
+
+<ul class="days">
+	<li class="othermonth">30</li>
+	<li class="othermonth">31</li>
+	<li>1</li>
+  	<li>2</li>
+  	<li>3</li>
+	<li>4</li>
+	<li>5</li>
+	<li>6</li>
+	<li>7</li>
+	<li>8</li>
+	<li>9</li>
+	<li>10</li>
+	<li>11</li>
+	<li>12</li>
+	  <li>13</li>
+	  <li>14</li>
+	  <li>15</li>
+	  <li>16</li>
+	  <li>17</li>
+	  <li>18</li>
+	  <li>19</li>
+	  <li>20</li>
+	  <li>21</li>
+	  <li>22</li>
+	  <li>23</li>
+	  <li>24</li>
+	  <li>25</li>
+	  <li>26</li>
+	  <li>27</li>
+	  <li>28</li>
+	  <li>29</li>
+	  <li>30</li>
+ 	<li class="othermonth">1</li>
+ 	<li class="othermonth">2</li>
+ 	<li class="othermonth">3</li>
+
+</ul>  
+</div> 
+
+<!-- Mayo -->
+<div class="show" id="mayo">
+<div class="month">
+  <ul>
+    <li class="prev"><a class="button" onclick="previousabril();">&#10094;</a></li> 
+    <li class="next"><a class="button" onclick="nextjunio();">&#10095;</a></li>
+    <li>Mayo 2020</li>
+  </ul>
+</div>
+
+<ul class="weekdays">
+  <li>Mo</li>
+  <li>Tu</li>
+  <li>We</li>
+  <li>Th</li>
+  <li>Fr</li>
+  <li>Sa</li>
+  <li>Su</li>
+</ul>
+
+<ul class="days">
+  <li class="othermonth">27</li>
+  <li class="othermonth">28</li>
+  <li class="othermonth">29</li>
+  <li class="othermonth">30</li>
+  <li>1</li>
+  <li>2</li>
+  <li>3</li>
+  <li>4</li>
+  <li>5</li>
+  <li>6</li>
+  <li>7</li>
+  <li>8</li>
+  <li>9</li>
+  <li>10</li>
+  <li>11</li>
+  <li>12</li>
+  <li>13</li>
+  <li>14</li>
+  <li>15</li>
+  <li>16</li>
+  <li>17</li>
+  <li>18</li>
+  <li>19</li>
+  <li>20</li>
+  <li>21</li>
+  <li>22</li>
+  <li>23</li>
+  <li>24</li>
+  <li>25</li>
+  <li>26</li>
+  <li>27</li>
+  <li>28</li>
+  <li>29</li>
+  <li>30</li>
+  <li>31</li>
+</ul>  
+</div> 
+
+<!-- Junio -->
+<div class="hide" id="junio">
+<div class="month">
+  <ul>
+    <li class="prev"><a class="button" onclick="previousmayo();">&#10094;</a></li> 
+    <li class="next"><a class="button" onclick="nextjulio();">&#10095;</a></li>
+    <li>Junio 2020</li>
+  </ul>
+</div>
+
+<ul class="weekdays">
+  <li>Mo</li>
+  <li>Tu</li>
+  <li>We</li>
+  <li>Th</li>
+  <li>Fr</li>
+  <li>Sa</li>
+  <li>Su</li>
+</ul>
+
+<ul class="days">
+  <li>1</li>
+  <li>2</li>
+  <li>3</li>
+  <li>4</li>
+  <li>5</li>
+  <li>6</li>
+  <li>7</li>
+  <li>8</li>
+  <li>9</li>
+  <li>10</li>
+  <li>11</li>
+  <li>12</li>
+  <li>13</li>
+  <li>14</li>
+  <li>15</li>
+  <li>16</li>
+  <li>17</li>
+  <li>18</li>
+  <li>19</li>
+  <li>20</li>
+  <li>21</li>
+  <li>22</li>
+  <li>23</li>
+  <li>24</li>
+  <li>25</li>
+  <li>26</li>
+  <li>27</li>
+  <li>28</li>
+  <li>29</li>
+  <li>30</li>
+  <li class="othermonth">1</li>
+  <li class="othermonth">2</li>
+  <li class="othermonth">3</li>
+  <li class="othermonth">4</li>
+  <li class="othermonth">5</li>
+</ul>  
+</div> 
+
+<!-- Julio -->
+<div class="hide" id="julio">
+<div class="month">
+  <ul>
+    <li class="prev"><a class="button" onclick="previousjunio();">&#10094;</a></li> 
+    <li class="next"><a class="button" onclick="nextagosto();">&#10095;</a></li>
+    <li>Julio 2020</li>
+  </ul>
+</div>
+
+<ul class="weekdays">
+  <li>Mo</li>
+  <li>Tu</li>
+  <li>We</li>
+  <li>Th</li>
+  <li>Fr</li>
+  <li>Sa</li>
+  <li>Su</li>
+</ul>
+
+<ul class="days">
+  <li class="othermonth">29</li>
+  <li class="othermonth">30</li>
+  <li>1</li>
+  <li>2</li>
+  <li>3</li>
+  <li>4</li>
+  <li>5</li>
+  <li>6</li>
+  <li>7</li>
+  <li>8</li>
+  <li>9</li>
+  <li>10</li>
+  <li>11</li>
+  <li>12</li>
+  <li>13</li>
+  <li>14</li>
+  <li>15</li>
+  <li>16</li>
+  <li>17</li>
+  <li>18</li>
+  <li>19</li>
+  <li>20</li>
+  <li>21</li>
+  <li>22</li>
+  <li>23</li>
+  <li>24</li>
+  <li>25</li>
+  <li>26</li>
+  <li>27</li>
+  <li>28</li>
+  <li>29</li>
+  <li>30</li>
+  <li class="othermonth">1</li>
+  <li class="othermonth">2</li>
+</ul>  
+</div> 
+
+<!-- Agosto -->
+<div class="hide" id="agosto">
+<div class="month">
+  <ul>
+    <li class="prev"><a class="button" onclick="previousjulio();">&#10094;</a></li> 
+    <li class="next"><a class="button" onclick="nextseptiembre();">&#10095;</a></li>
+    <li>Agosto 2020</li>
+  </ul>
+</div>
+
+<ul class="weekdays">
+  <li>Mo</li>
+  <li>Tu</li>
+  <li>We</li>
+  <li>Th</li>
+  <li>Fr</li>
+  <li>Sa</li>
+  <li>Su</li>
+</ul>
+
+<ul class="days">
+  <li class="othermonth">27</li>
+  <li class="othermonth">28</li>
+  <li class="othermonth">29</li>
+  <li class="othermonth">30</li>
+  <li class="othermonth">31</li>
+  <li>1</li>
+  <li>2</li>
+  <li>3</li>
+  <li>4</li>
+  <li>5</li>
+  <li>6</li>
+  <li>7</li>
+  <li>8</li>
+  <li>9</li>
+  <li>10</li>
+  <li>11</li>
+  <li>12</li>
+  <li>13</li>
+  <li>14</li>
+  <li>15</li>
+  <li>16</li>
+  <li>17</li>
+  <li>18</li>
+  <li>19</li>
+  <li>20</li>
+  <li>21</li>
+  <li>22</li>
+  <li>23</li>
+  <li>24</li>
+  <li>25</li>
+  <li>26</li>
+  <li>27</li>
+  <li>28</li>
+  <li>29</li>
+  <li>30</li>
+  <li>31</li>
+  <li class="othermonth">1</li>
+  <li class="othermonth">2</li>
+  <li class="othermonth">3</li>
+  <li class="othermonth">4</li>
+  <li class="othermonth">5</li>
+  <li class="othermonth">6</li>
+</ul>  
+</div> 
+
+
+<!-- Septiembre -->
+<div class="hide" id="septiembre">
+<div class="month">
+  <ul>
+    <li class="prev"><a class="button" onclick="previousagosto();">&#10094;</a></li> 
+    <li class="next"><a class="button" onclick="nextoktubre();">&#10095;</a></li>
+    <li>Septiembre 2020</li>
+  </ul>
+</div>
+
+<ul class="weekdays">
+  <li>Mo</li>
+  <li>Tu</li>
+  <li>We</li>
+  <li>Th</li>
+  <li>Fr</li>
+  <li>Sa</li>
+  <li>Su</li>
+</ul>
+
+<ul class="days">
+  <li class="othermonth">31</li>
+  <li>1</li>
+  <li>2</li>
+  <li>3</li>
+  <li>4</li>
+  <li>5</li>
+  <li>6</li>
+  <li>7</li>
+  <li>8</li>
+  <li>9</li>
+  <li>10</li>
+  <li>11</li>
+  <li>12</li>
+  <li>13</li>
+  <li>14</li>
+  <li>15</li>
+  <li>16</li>
+  <li>17</li>
+  <li>18</li>
+  <li>19</li>
+  <li>20</li>
+  <li>21</li>
+  <li>22</li>
+  <li>23</li>
+  <li>24</li>
+  <li>25</li>
+  <li>26</li>
+  <li>27</li>
+  <li>28</li>
+  <li>29</li>
+  <li>30</li>
+  <li class="othermonth">1</li>
+  <li class="othermonth">2</li>
+  <li class="othermonth">3</li>
+  <li class="othermonth">4</li>
+</ul>  
+</div> 
+
+<!-- Oktubre -->
+<div class="hide" id="oktubre">
+<div class="month">
+  <ul>
+    <li class="prev"><a class="button" onclick="previousseptiembre();">&#10094;</a></li> 
+    <li class="next"><a class="button" onclick="nextnoviembre();">&#10095;</a></li>
+    <li>Oktubre 2020</li>
+  </ul>
+</div>
+
+<ul class="weekdays">
+  <li>Mo</li>
+  <li>Tu</li>
+  <li>We</li>
+  <li>Th</li>
+  <li>Fr</li>
+  <li>Sa</li>
+  <li>Su</li>
+</ul>
+
+<ul class="days">
+  <li class="othermonth">28</li>
+  <li class="othermonth">29</li>
+  <li class="othermonth">30</li>
+  <li>1</li>
+  <li>2</li>
+  <li>3</li>
+  <li>4</li>
+  <li>5</li>
+  <li>6</li>
+  <li>7</li>
+  <li>8</li>
+  <li>9</li>
+  <li>10</li>
+  <li>11</li>
+  <li>12</li>
+  <li>13</li>
+  <li>14</li>
+  <li>15</li>
+  <li>16</li>
+  <li>17</li>
+  <li>18</li>
+  <li>19</li>
+  <li>20</li>
+  <li>21</li>
+  <li>22</li>
+  <li>23</li>
+  <li>24</li>
+  <li>25</li>
+  <li>26</li>
+  <li>27</li>
+  <li>28</li>
+  <li>29</li>
+  <li>30</li>
+  <li>31</li>
+  <li class="othermonth">1</li>
+</ul>  
+</div>
+
+<!-- Noviembre -->
+<div class="hide" id="noviembre">
+<div class="month">
+  <ul>
+    <li class="prev"><a class="button" onclick="previousoktubre();">&#10094;</a></li> 
+    <li class="next"><a class="button" onclick="nextdiciembre();">&#10095;</a></li>
+    <li>Noviembre 2020</li>
+  </ul>
+</div>
+
+<ul class="weekdays">
+  <li>Mo</li>
+  <li>Tu</li>
+  <li>We</li>
+  <li>Th</li>
+  <li>Fr</li>
+  <li>Sa</li>
+  <li>Su</li>
+</ul>
+
+<ul class="days">
+  <li class="othermonth">26</li>
+  <li class="othermonth">27</li>
+  <li class="othermonth">28</li>
+  <li class="othermonth">29</li>
+  <li class="othermonth">30</li>
+  <li class="othermonth">31</li>
+  <li>1</li>
+  <li>2</li>
+  <li>3</li>
+  <li>4</li>
+  <li>5</li>
+  <li>6</li>
+  <li>7</li>
+  <li>8</li>
+  <li>9</li>
+  <li>10</li>
+  <li>11</li>
+  <li>12</li>
+  <li>13</li>
+  <li>14</li>
+  <li>15</li>
+  <li>16</li>
+  <li>17</li>
+  <li>18</li>
+  <li>19</li>
+  <li>20</li>
+  <li>21</li>
+  <li>22</li>
+  <li>23</li>
+  <li>24</li>
+  <li>25</li>
+  <li>26</li>
+  <li>27</li>
+  <li>28</li>
+  <li>29</li>
+  <li>30</li>
+  <li class="othermonth">1</li>
+  <li class="othermonth">2</li>
+  <li class="othermonth">3</li>
+  <li class="othermonth">4</li>
+  <li class="othermonth">5</li>
+  <li class="othermonth">6</li>
+</ul>  
+</div> 
+
+<!-- Diciembre -->
+<div class="hide" id="diciembre">
+<div class="month">
+  <ul>
+    <li class="prev"><a class="button" onclick="previousnoviembre();">&#10094;</a></li> 
+    <li class="next"><a class="button" onclick="nextenero();">&#10095;</a></li>
+    <li>Diciembre 2020</li>
+  </ul>
+</div>
+
+<ul class="weekdays">
+  <li>Mo</li>
+  <li>Tu</li>
+  <li>We</li>
+  <li>Th</li>
+  <li>Fr</li>
+  <li>Sa</li>
+  <li>Su</li>
+</ul>
+
+<ul class="days">
+  <li class="othermonth">30</li>
+  <li>1</li>
+  <li>2</li>
+  <li>3</li>
+  <li>4</li>
+  <li>5</li>
+  <li>6</li>
+  <li>7</li>
+  <li>8</li>
+  <li>9</li>
+  <li>10</li>
+  <li>11</li>
+  <li>12</li>
+  <li>13</li>
+  <li>14</li>
+  <li>15</li>
+  <li>16</li>
+  <li>17</li>
+  <li>18</li>
+  <li>19</li>
+  <li>20</li>
+  <li>21</li>
+  <li>22</li>
+  <li>23</li>
+  <li>24</li>
+  <li>25</li>
+  <li>26</li>
+  <li>27</li>
+  <li>28</li>
+  <li>29</li>
+  <li>30</li>
+  <li>31</li>
+  <li class="othermonth">1</li>
+  <li class="othermonth">2</li>
+  <li class="othermonth">3</li>
+</ul>  
+</div> 
+</div>
 
 	</main>
 

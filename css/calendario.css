@@ -1,16 +1,34 @@
 /* Calendario */
+
+
 ul {list-style-type: none;}
+
+
+	.hide, .show {
+		position: absolute;
+		top: 50vw;
+		left: 8.33vw;
+		width: 83.33vw;
+	}
+
 	/* Change Month */
 	.show{
-	margin: 0px 0px 50px 0px;}
+	visibility: visible;
+	}
+
 	.hide{
-	display: none;}
+	visibility: hidden;
+	}
+
+
 	/* Month header */
 	.month {
 	  padding: 15px 25px;
 	  width: auto;
 	  background: #00aeef;
 	  text-align: center;}
+
+
 	/* Month list */
 	.month ul {
 	  margin: 0;
@@ -20,18 +38,23 @@ ul {list-style-type: none;}
 	  font-size: 20px;
 	  text-transform: uppercase;
 	  letter-spacing: 3px;}
+
+
 	/* Previous button inside month header */
 	.month .prev {
 	  float: left;
 	  cursor: pointer;}
 	.month .prev a:hover {
 	  color: white}
+
 	/* Next button */
 	.month .next {
 	  float: right;
 	  cursor: pointer;}
 	.month .next a:hover {
 	  color: white;}
+
+
 	/* Weekdays (Mon-Sun) */
 	.weekdays {
 	  margin: 0;
@@ -45,6 +68,8 @@ ul {list-style-type: none;}
 	.days li.othermonth{
 	color: #D3D3D3;
 	}
+
+
 	/* Days (1-31) */
 	.days {
 	  padding: 10px;
@@ -59,6 +84,8 @@ ul {list-style-type: none;}
 	  margin-bottom: 10px;
 	  font-size:12px;
 	  color: #777;}
+
+
 	/* Highlight the "current" day */
 	.days li .active {
 	  padding: 5px;

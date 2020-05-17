@@ -47,6 +47,8 @@
 			background-color: rgba(225, 225, 225, 0.5);
 			transition: all .3s ease;
 			position: absolute;
+			top: 0;
+			left: 0;
 			width: 100vw;
 		}
 
@@ -101,7 +103,6 @@
 
 		.sub-menu ul {
 			display: flex;
-			width: 100%;
 			list-style-type: none;
 			padding: 0;
 			margin: 1vw 0 0 15vw;
