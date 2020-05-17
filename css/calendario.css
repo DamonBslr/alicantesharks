@@ -2,30 +2,23 @@
 
 
 ul {list-style-type: none;}
-
-
-	.hide, .show {
-		position: absolute;
-		top: 50vw;
-		left: 8.33vw;
-		width: 83.33vw;
 	}
 
 	/* Change Month */
 	.show{
-	visibility: visible;
+	display: block;
 	}
 
 	.hide{
-	visibility: hidden;
+		display: none;
 	}
 
 
 	/* Month header */
 	.month {
-	  padding: 15px 25px;
+	  padding: 1vw 1.5vw;
 	  width: auto;
-	  background: #00aeef;
+	  background: #00B0F2;
 	  text-align: center;}
 
 
@@ -35,9 +28,9 @@ ul {list-style-type: none;}
 	  padding: 0;}
 	.month ul li {
 	  color: white;
-	  font-size: 20px;
+	  font-size: 1.3vw;
 	  text-transform: uppercase;
-	  letter-spacing: 3px;}
+	  letter-spacing: 0.2vw;}
 
 
 	/* Previous button inside month header */
@@ -58,13 +51,15 @@ ul {list-style-type: none;}
 	/* Weekdays (Mon-Sun) */
 	.weekdays {
 	  margin: 0;
-	  padding: 10px 0;
+	  padding: 0.75vw 0;
 	  background-color:#ddd;}
+
 	.weekdays li {
 	  display: inline-block;
 	  width: 13.6%;
 	  color: #666;
 	  text-align: center;}
+
 	.days li.othermonth{
 	color: #D3D3D3;
 	}
@@ -72,22 +67,15 @@ ul {list-style-type: none;}
 
 	/* Days (1-31) */
 	.days {
-	  padding: 10px;
+	  padding: 0.75vw;
 	  background: #eee;
 	  margin: 0;}
 	.days li {
 	  list-style-type: none;
 	  display: inline-block;
 	  width: 13.6%;
-	  height: 100px;
+	  height: 6vw;
 	  text-align: center;
-	  margin-bottom: 10px;
-	  font-size:12px;
+	  margin-bottom: 0.75vw;
+	  font-size:0.8vw;
 	  color: #777;}
-
-
-	/* Highlight the "current" day */
-	.days li .active {
-	  padding: 5px;
-	  background: #1abc9c;
-	  color: white !important}
