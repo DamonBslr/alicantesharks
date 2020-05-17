@@ -9,100 +9,59 @@
 	<link rel="stylesheet" type="text/css" href="css/grid.css">
 	<link rel="stylesheet" type="text/css" href="css/menu.css">
 	<link rel="stylesheet" type="text/css" href="css/sharks.css">
-	<link rel="stylesheet" type="text/css" href="css/equipo.css">
+	<link rel="stylesheet" type="text/css" href="css/header.css">
+	<link rel="stylesheet" type="text/css" href="css/footer.css">
+	<link rel="stylesheet" type="text/css" href="css/categorias.css">
 	<!-- Java Script -->
 	<script type="text/javascript" src="js/sharks.js"></script>
 	<!-- Icon -->
-	<link rel="icon" href="img/sharks-logo.png">
+	<link rel="icon" href="img/logos-sharks/logosharks-s.png">
 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<title>Alicante Sharks Club Football Americano</title>
 </head>
+
 <body>
 
-	<!-- Mobile Header
+	<!-- Header
 	---------------------------------------------------------------->
-	<header class="mobile fixed-header">
+	<header class="header" id="header">
 		<div class="row">
-			<div class="col-m-1 col-s-1">
-				<div class="menu-toggle" onclick="show()"> 
+			<div class="col-m-2 col-s-2 col-10">
+				<div class="menu-toggle mobile" onclick="show()"> 
 					<i class="fas fa-bars"></i>
 				</div>
 				<nav class="menu" id="primary-menu">
                     <ul class="menu-nav">
-                        <li class="menu-nav-item"><a href="#about">Inicio</a></li>
-                        <li class="menu-nav-item"><a href="#skills">Noticias</a></li>
-                        <li class="menu-nav-item"><a href="#portfolio">Equipo</a></li>
-                        <li class="menu-nav-item"><a href="#clients">Calendario</a></li>
-                        <li class="menu-nav-item"><a href="#contact">Clasificacion</a></li>
+                       <li class="menu-nav-item"><a href="https://damonbslr.github.io/alicantesharks/historia">Historia</a></li>
+                        <li class="menu-nav-item"><a href="https://damonbslr.github.io/alicantesharks/noticias">Noticias</a></li>
+                        <li class="menu-nav-item"><a href="https://damonbslr.github.io/alicantesharks/equipo">Equipo</a>
+                        	<nav class="sub-menu desktop">
+			                    <ul>
+			                        <li class="sub-menu-nav-item"><a href="https://damonbslr.github.io/alicantesharks/equipo/senior-masculino">Senior Masculino</a></li>
+			                        <li class="sub-menu-nav-item"><a href="https://damonbslr.github.io/alicantesharks/equipo/senior-femenino">Senior Femenino</a></li>
+			                        <li class="sub-menu-nav-item"><a href="https://damonbslr.github.io/alicantesharks/equipo/junior-mixto">Junior Mixto</a></li>
+			                        <li class="sub-menu-nav-item"><a href="https://damonbslr.github.io/alicantesharks/equipo/cadete-mixto">Cadete Mixto</a></li>
+			                        <li class="sub-menu-nav-item"><a href="https://damonbslr.github.io/alicantesharks/equipo/flag-open">Flag Open</a></li>
+			                        <li class="sub-menu-nav-item"><a href="https://damonbslr.github.io/alicantesharks/equipo/flag-femenino">Flag Femenino</a></li>
+			                        <li class="sub-menu-nav-item"><a href="https://damonbslr.github.io/alicantesharks/equipo/flag-sub15">Flag Sub15</a></li>
+			                    </ul>
+			                </nav>
+	                	</li>
+                        <li class="menu-nav-item"><a href="https://damonbslr.github.io/alicantesharks/calendario">Calendario</a></li>
+                        <li class="menu-nav-item"><a href="https://damonbslr.github.io/alicantesharks/horarios">Horarios</a></li>
                     </ul>
                 </nav>
 			</div>
-			<div class="col-m-1 col-s-1">
+			<div class="col-m-10 col-s-10 col-1">
 				<div class="sub-logo">
-					<img src="img/sharks-logo.png">
-					<!-- <img src="img/sub-logo.png"> -->
-				</div>
-			</div>
-			<div class="col-m-10 col-s-10">
-				<div class="heading-title">
-					<h1>Club Football Americano</h1>
-				</div>
-			</div>
-		</div>
-	</header>
-
-<!--Desktop Header
-	------------------------------------------------------------->
-
-	<header class="desktop header" id="header">
-		<div class="row">
-			<div class="col-2" style="width: 14%">
-				<div>
-					<a class="sub-logo" href="https://damonbslr.github.io/alicantesharks/">
-						<img src="img/sharks-logo.png">
+					<a href="https://damonbslr.github.io/alicantesharks/">
+						<img src="img/logos-sharks/logosharks-texto.png">
 					</a>
 				</div>
 			</div>
-			<div class="col-4">
-				<div class="heading-title">
-					<a href="#">
-						<h1>Alicante Sharks Club Football Americano</h1>
-					</a>
-				</div>
-			</div>
-
-			<div class="col-4">	
-				<div class="menu-grid">
-					<div class="menu-nav-item">
-						<a href="noticias">Noticias</a>
-					</div>
-					<div class="menu-nav-item hover">
-						<a href="equipo">Equipo</a>
-						<nav class="sub-menu">
-	                    <ul>
-	                        <li class="sub-menu-nav-item"><a href="#">Senior Masculino</a></li>
-	                        <li class="sub-menu-nav-item"><a href="#">Senior Femenino</a></li>
-	                        <li class="sub-menu-nav-item"><a href="#">Junior Mixto</a></li>
-	                        <li class="sub-menu-nav-item"><a href="">Cadete Mixto</a></li>
-	                        <li class="sub-menu-nav-item"><a href="">Flag Masculino</a></li>
-	                        <li class="sub-menu-nav-item"><a href="">Flag Femenino</a></li>
-	                        <li class="sub-menu-nav-item"><a href="">Flag Sub15</a></li>
-	                        <li class="sub-menu-nav-item"><a href="">Flag Sub13</a></li>
-	                    </ul>
-	                	</nav>
-	                </div>
-                	<div class="menu-nav-item">
-                		<a href="calendario">Calendario</a>
-                	</div>
-					<div class="menu-nav-item">
-						<a href="clasificacion">Clasificacion</a>
-					</div>
-				</div>
-			</div>
-
-			<div class="col-1">
+			<div class="col-2 desktop">
 				<div class="social-links-grid">
 					<a target="_blank" href="https://instagram.com/alicantesharks">
 						<i class="fab fa-instagram-square" onmouseover="instaheader()" onmouseout="normalheader()"></i>
@@ -118,44 +77,45 @@
 		</div>
 	</header>
 
+	<!--Dia
+	------------------------------------------------------->
+		<div class="row">
+			<div class="col-s-12 col-m-12">
+				<div class="dia mobile">
+					<img src="img/logos-sharks/logotipo-shark.png">
+				</div>
+				<div class="dia desktop">
+					<img src="img/tackle-junior-mixto-banner.jpg">
+				</div>
+			</div>
+		</div>
 
-<!--main-->
-	
+	<!-- Important News
+	---------------------------------------------------------->		
 	<div class="row">
 		<div class="col-12">
-			<div class="news single">
-				<h2>Equipo</h2>
+			<div class="news">
+				<div class="news-content">
+					<h1>Sample Page</h1>
+					<p></p>
+				</div>
 			</div>
 		</div>
 	</div>
 
+	<!--Main
+	-------------------------------------------------------------------------------------------------->
 	<main>
-		<div class="row">
-			<div class="col-12 hover-opacity">
-				<a href="#">
-					<div class="grid">
-						<div class="grid-image">
-							<img src="img/sharks-practice.jpg">
-						</div>
-						<div class="grid-text">
-							<h2>Senior Masculino</h2>
-							<p>
-								Lunes y Martes 19:00-21:00<br>
-								Masculino 18+
-							</p>
-						</div>
-					</div>
-				</a>
-			</div>
-		</div>
+
 	</main>
+
 	<!-- Footer
 	----------------------------------------------------------------------------------------->
 	<footer>
 		<div class="row footer" id="footer">
 			<div class="col-12">
 				<div class="footer-logo">
-					<img src="img/sharks-logo.png">
+					<img src="img/logos-sharks/logotipo-shark.png">
 				</div>
 				<div class="social-links-grid">
 					<div class="follow-instagram">
@@ -179,18 +139,17 @@
 					<div class="footer-grid">
 						<div class="footer-grid-left">
 							<div class="footer-heading">	
-								<h2>Sponsoring</h2>
+								<h3>Patrocinadores</h3>
 							</div>
 							<div class="footer-links">
-								<a href="">Unsere Sponsoren</a>
-								<a href="">Sponsor werden</a>
-								<a href=""></a>
+								<a href="">Nuestros patrocinadores</a>
+								<a href="">convertirse en patrocinador</a>
 							</div>
 						</div>
 						
 						<div class="footer-grid-middle">
 							<div class="footer-heading">
-								<h2>Links</h2>
+								<h3>Links</h3>
 							</div>
 							<div class="footer-links">
 								<a href="">Fanshop</a>
@@ -201,7 +160,7 @@
 						
 						<div class="footer-grid-right">
 							<div class="footer-heading">
-								<h2>Kontakt</h2>
+								<h3>Kontakt</h3>
 							</div>
 							<div class="footer-links">
 								<a href="">Kontakt</a>
@@ -212,7 +171,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="damon">
+			<div class="damon desktop">
 				<a href="https://www.instagram.com/damon.bslr" target="_blank">created by Damon Basler</a>
 			</div>
 		</div>
