@@ -229,9 +229,8 @@ img {
 
 
 	h1 {
-		color: #eaf2fb;
+		color: #04378B;
 		font-size: 4.5vw;
-		line-height: 0;
 		padding: 1vw 0vw 1vw 0vw;
 	}
 
@@ -379,5 +378,45 @@ img {
 			.blog-text a:hover {
 				color: #eaf2fb;
 			}
+
+
+			/* Two column site 
+			-------------------------------------------------------*/
+
+			.text-column {
+				padding: 2vw;
+			}
+
+			.text-column h1 {
+				font-size: 2.9vw;
+				padding: 2vw 0 ;
+				color: black;
+			}
+
+			.text-column h2 {
+
+			}
+
+			.text-column p {
+				padding: 1vw 0;
+			}
+
+			.image-column {
+				padding: 2vw 2.5vw 1vw 1vw;
+			}
+
+			.image-column img {
+				padding: 0.5vw 0 0 0;
+			}
+
+			.caption {
+				font-family: sans-serif;
+				color: grey;
+				font-size: 1vw;
+				padding: 0 0 1vw 1vw;
+				margin: 0;
+			}
+
+
 
 		}
