@@ -95,6 +95,7 @@
 		.menu-nav-item a {
 			text-decoration: none;
 			color: white;
+			font-size: 1.25vw;
 		}
 
 		.menu-nav-item a:hover {
@@ -107,7 +108,7 @@
 			position: absolute;
 			background-color: rgba(225,225,225,0.5);
 			width: 100vw;
-			margin: 1.6vw 0 0 -44.55vw;
+			margin: 1.6vw 0 0 -46.65vw;
 			border-radius: 0;
 		}
 

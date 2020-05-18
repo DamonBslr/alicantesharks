@@ -70,7 +70,8 @@ body {
 }
 
 main {
-	margin: 5vw 10vw 5vw 10vw;
+	margin: 0 10vw 5vw 10vw;
+	padding: 20vw 0 0 0;
 }
 
 img {
@@ -135,10 +136,19 @@ img {
 		font-size: 4vw;
 	}
 
+	h4 {
+		font-size: 3vw;
+	}
+
 	p {
 		font-size: 3vw;
 		margin: 0;
 		padding: 0;
+		font-family: sans-serif;
+	}
+
+	a {
+		font-size: 3vw;
 	}
 
 
@@ -158,7 +168,7 @@ img {
 			color: #04378B;
 		}
 
-		.news p {
+		.news h4 {
 			text-align: center;
 			padding-bottom: 1vw;
 		}
@@ -207,7 +217,7 @@ img {
 				padding: 1vw 2vw 2vw 2vw;
 			}
 
-			.blog-link a {
+			a.blog-link, .blog-link a {
 				color: #04378B;
 				text-decoration: none;
 				font-size: 3vw;
@@ -274,7 +284,7 @@ img {
 			padding-top: 2vw;
 		}
 
-		.news p {
+		.news h4 {
 			text-align: center;
 			padding-bottom: 1vw;
 		}
@@ -360,24 +370,23 @@ img {
 				color: #04378B;
 			}
 
-
-			.blog-link {
-				font-family: 'LeagueSpartan';
-				padding: 0.3vw 0 0 1vw;
-				color: #04378B;
-				font-size: 1.2vw;
-
+			.blog-link a {
+				padding: 1vw;
+				font-family: 'LeagueSpartan'
 			}
 
-			a .blog-link, .blog-link a {
-				color: #04378B;
-				text-decoration: none;
-				font-size: 1.2vw;
+			a.blog-link {
+				padding: 0 0 1vw 1vw;
+			}
+
+			.blog-link a:hover {
+				color: #eaf2fb;
 			}
 
 			.blog-text a:hover {
 				color: #eaf2fb;
 			}
+
 
 
 			/* Two column site 
@@ -391,6 +400,7 @@ img {
 				font-size: 2.9vw;
 				padding: 2vw 0 ;
 				color: black;
+				margin: 0;
 			}
 
 			.text-column h2 {
@@ -399,6 +409,7 @@ img {
 
 			.text-column p {
 				padding: 1vw 0;
+				margin: 0;
 			}
 
 			.image-column {
@@ -418,5 +429,19 @@ img {
 			}
 
 
+			/* Patrocinadores
+			-----------------------------------------------------------*/
+
+			img.vips {
+
+			}
+
+			img.rsport {
+				padding: 1.5vw 0 0 0;
+			} 
+
+			img.fontalider {
+				padding: 1.5vw 0 0 0;
+			}
 
 		}

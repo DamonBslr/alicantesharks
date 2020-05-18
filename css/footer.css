@@ -192,15 +192,15 @@
 
 
 	.footer-grid-left {
-		margin: 0 0 0 15vw;
+		margin: 0 0 0 5vw;
 	}
 
 	.footer-grid-middle {
-		margin: 0 10vw 0 8vw;
+		margin: 0 0 0 9vw;
 	}
 
 	.footer-grid-right {
-		margin: 0 0 0 0;
+		margin: 0 0 0 16vw;
 	}
 
 
@@ -213,8 +213,9 @@
 	 .footer-links a {
 	 	color: #eaf2fb;
 	 	display: block;
-	 	font-size: 1.5vw;
+	 	font-size: 3vw;
 	 	line-height: 2;
+	 	font-family: sans-serif;
 	 }
 
 }
