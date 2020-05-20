@@ -34,6 +34,26 @@
 	margin-left: 25%;
 	margin-right: 25%;
 	}
+
+	.sub-menu {
+		display: none;
+	}
+
+	.sub-menu.show {
+		display: block;
+	}
+
+	.sub-menu ul {
+		list-style-type: none;
+		padding-left: 0;
+		border-top: 1px solid grey;
+		border-bottom: 1px solid grey;
+	}
+
+	a.desktop {
+		display: none;
+	}
+
 }
 
 /* Desktop only
@@ -104,12 +124,15 @@
 
 		.sub-menu {
 			visibility: hidden;
-			transition: 0.5s;
+			transition: 0.2s;
 			position: absolute;
 			background-color: rgba(225,225,225,0.5);
 			width: 100vw;
-			margin: 1.6vw 0 0 -46.65vw;
 			border-radius: 0;
+			height: 3.8vw;
+			position: absolute;
+			top: 5vw;
+			left: 0;
 		}
 
 

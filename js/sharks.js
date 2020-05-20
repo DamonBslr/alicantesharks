@@ -2,9 +2,28 @@ function show() {
   var x = document.getElementById("primary-menu");
   if (x.className === "menu") {
     x.className += " show";
-  } else {
+    } else {
     x.className = "menu";
+    }
+  document.getElementById("sub-menu").className = "sub-menu";
+}
+
+function showsub() {
+  var x = document.getElementById("sub-menu");
+  if (x.className === "sub-menu") {
+    x.className += " show";
+  } else {
+    x.className = "sub-menu";
   }
+}
+
+
+
+/* Set the width of the sidebar to 250px and the left margin of the page content to 250px */
+function openNav() {
+  document.getElementById("submenu").style.height = "68vw";
+  document.getElementByClassName("sub-menu-nav-item").style.height = "6.8vw";
+  document.getElementById("under").style.marginTop = "68vw";
 }
 
 function showcontent1() {
