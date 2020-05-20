@@ -1,3 +1,7 @@
+
+
+
+
 /* Mobile only
 -----------------------------------------------------------------------------------*/
 
@@ -35,6 +39,10 @@
 	margin-right: 25%;
 	}
 
+	.menu-nav-item a {
+		font-size: 3.3vh
+	}
+
 	.sub-menu {
 		display: none;
 	}
@@ -50,7 +58,11 @@
 		border-bottom: 1px solid grey;
 	}
 
-	a.desktop {
+	.sub-menu-nav-item  a{
+		font-size: 3.3vh;
+	}
+
+		a.desktop {
 		display: none;
 	}
 
@@ -80,6 +92,7 @@
 			top: 0;
 			left: 0;
 			width: 100vw;
+			height: 5vw;
 		}
 
 		.header2 {
@@ -144,11 +157,15 @@
 			display: flex;
 			list-style-type: none;
 			padding: 0;
-			margin: 1vw 0 0 15vw;
+			margin: 1vw 0 0 12vw;
 		}
 
 		.sub-menu-nav-item {
 			padding: 0vw 1vw 1vw 1vw;
 			font-size: 1vw;
 		}
+
+		a.desktop {
+	line-height: 1.7;
+}
 }
