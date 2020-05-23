@@ -18,6 +18,7 @@
 
 @media only screen and (max-width: 827px) {
   /* For mobile phones: */
+  .col-m-0 {width: 0%;}
   .col-m-1 {width: 8.33%;}
   .col-m-2 {width: 16.66%;}
   .col-m-3 {width: 25%;}
@@ -35,6 +36,7 @@
 
 @media only screen and (min-width: 828px) {
   /* For tablets: */
+  .col-s-0 {width: 0%;}
   .col-s-1 {width: 8.33%;}
   .col-s-2 {width: 16.66%;}
   .col-s-3 {width: 25%;}
