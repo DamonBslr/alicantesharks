@@ -7,20 +7,33 @@
 @media screen and (max-width: 1200px) {
 
     .menu-toggle {
-        padding: 2vw 0 0 2.7vw;
-        z-index: 3;
-        cursor: pointer;
-        font-size: 10vw;
+        margin: 7vw 0 0 2.7vw;
     }
 
-    .menu-toggle .fa {
+    .minus {
+        background-color: black;
+        height: 10px;
+        width: 80px;
+        border-radius: 5px;
+        margin: 15px;
         transition: all 800ms ease-out;
+    }
+    .menu-toggle .minus.click:nth-child(1) {
+        transform: rotate(45deg) translate3d(10px,24px,0);
+    }
+    .menu-toggle .minus.click:nth-child(2) {
+        transition: all 500ms ease-in;
+        transform: translate(-30px,0);
+        opacity: 0;
+    }
+    .menu-toggle .minus.click:nth-child(3) {
+        transform: rotate(-45deg)translate3d(10px,-24px,0);
     }
 
     .menu {
         position: fixed;
         z-index: 2;
-        top: 15vw;
+        top: 20vw;
         left: 0;
         width: 30%;
         visibility: hidden;
@@ -74,3 +87,4 @@
         width: 100%;
     }
 }
+

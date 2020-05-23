@@ -5,8 +5,38 @@ function show() {
     } else {
     x.className = "menu";
     }
+
+    var y = document.getElementById("minus1");
+  if (y.className === "minus") {
+    y.className += " click";
+    } else {
+    y.className = "minus";
+    }
+
+    var z = document.getElementById("minus2");
+  if (z.className === "minus") {
+    z.className += " click";
+    } else {
+    z.className = "minus";
+    }
+
+    var w = document.getElementById("minus3");
+  if (w.className === "minus") {
+    w.className += " click";
+    } else {
+    w.className = "minus";
+    }
+
+
+
+
+
   document.getElementById("sub-menu").className = "sub-menu";
+
 }
+
+
+
 
 function showsub() {
   var x = document.getElementById("sub-menu");
@@ -19,7 +49,6 @@ function showsub() {
 
 
 
-/* Set the width of the sidebar to 250px and the left margin of the page content to 250px */
 function openNav() {
   document.getElementById("submenu").style.height = "68vw";
   document.getElementByClassName("sub-menu-nav-item").style.height = "6.8vw";

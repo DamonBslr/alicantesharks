@@ -17,15 +17,15 @@
 
 	.sub-logo img {
 		width: auto;
-		height: 10vw;
-		margin: 3vw 0 0 10vw;
+		height: 14vw;
+		margin: 3vw 0 0 2vw;
 
 	}
 
 	.header {
 		position: fixed;
 		background-color: #04378B;
-		height: 15vw;
+		height: 20vw;
 		width: 100vw;
 	}
 
