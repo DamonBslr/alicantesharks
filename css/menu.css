@@ -6,8 +6,8 @@
 
 
     .menu-toggle {
-        margin-top: 7vw;
-        margin-left: 1vw;
+        margin-top: 25px;
+        margin-left: 10px;
     }
 
     .minus {
@@ -22,14 +22,6 @@
 
 @media screen and (min-width: 600px) and (max-width: 1199px) {
 
-        .sub-logo img {
-        position: absolute;
-        height: 70px;
-        width: auto;
-        top: 15px;
-        left: 50%;
-        margin-left: -185px;
-    }
 
     .menu-toggle {
         margin: 30px 0 0 10px;
@@ -67,7 +59,7 @@
     .menu {
         position: fixed;
         z-index: 2;
-        top: 20vw;
+        top: 100px;
         left: 0;
         width: 30%;
         visibility: hidden;
