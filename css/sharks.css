@@ -387,6 +387,22 @@ img {
 				color: #eaf2fb;
 			}
 
+			/* Insta Input 
+			-------------------------------------------------------*/
+
+			.instagram{
+				padding-top: 5vw;
+			}
+
+			.insta-image {
+				padding: 1vw;
+			}
+
+			h2.insta {
+				text-align: center;
+				color: #04378B;
+			}
+
 
 
 			/* Two column site 
