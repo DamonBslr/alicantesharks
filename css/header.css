@@ -3,8 +3,9 @@
 @media screen and (max-width: 550px) {
 	.sub-logo img {
 		width: 70vw;
-		margin-top: 4vw;
-		margin-left: 20vw;
+		vertical-align: middle;
+		margin-left: 90px;
+		margin-top: 15px;
 	}
 
 }
@@ -33,10 +34,11 @@
 
 	.sub-logo {
 		align-content: center;
+		height: 15px;
 	}
 
 	.sub-logo a {
-		width: 100%;
+
 	}
 
 	.header {
