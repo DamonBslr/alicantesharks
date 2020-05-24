@@ -1,6 +1,8 @@
 
 
-
+@media screen and (max-width: 550px) {
+	.sub-logo img {width: 83.33vw}
+}
 
 /* Mobile only
 -----------------------------------------------------------------------------------*/
@@ -12,7 +14,7 @@
 /* Mobile and Tablet only (most controlled by menu.css)
 ------------------------------------------------------------------------------------*/
 
-@media screen and (max-width: 1199px){
+@media screen and (min-width: 550px) and (max-width: 1199px){
 	/* heading */
 
 	.sub-logo {
