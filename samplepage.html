@@ -30,14 +30,19 @@
 		<div class="row">
 			<div class="col-m-2 col-s-2 col-10">
 				<div class="menu-toggle mobile" onclick="show()"> 
-					<i class="fas fa-bars"></i>
+					<div class="minus" id="minus1"></div>
+					<div class="minus" id="minus2"></div>
+					<div class="minus" id="minus3"></div>
+
 				</div>
 				<nav class="menu" id="primary-menu">
                     <ul class="menu-nav">
                        <li class="menu-nav-item"><a href="https://damonbslr.github.io/alicantesharks/historia">Historia</a></li>
                         <li class="menu-nav-item"><a href="https://damonbslr.github.io/alicantesharks/noticias">Noticias</a></li>
-                        <li class="menu-nav-item"><a href="https://damonbslr.github.io/alicantesharks/equipo">Equipo</a>
-                        	<nav class="sub-menu desktop">
+                        <li class="menu-nav-item">
+                        	<a class="desktop" href="https://damonbslr.github.io/alicantesharks/equipo">Equipo</a>
+                        	<a class="mobile" onclick="showsub()">Equipo</a>
+                        	<nav class="sub-menu" id="sub-menu">
 			                    <ul>
 			                        <li class="sub-menu-nav-item"><a href="https://damonbslr.github.io/alicantesharks/equipo/senior-masculino">Senior Masculino</a></li>
 			                        <li class="sub-menu-nav-item"><a href="https://damonbslr.github.io/alicantesharks/equipo/senior-femenino">Senior Femenino</a></li>

@@ -24,20 +24,50 @@
 
 <body>
 
+	<!DOCTYPE html>
+<html>
+<head>
+	<!-- Font -->
+	<script src="https://kit.fontawesome.com/480f986a57.js" crossorigin="anonymous"></script>
+	<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Francois+One&family=Oswald&display=swap" rel="stylesheet">
+	<!-- Stylesheets -->
+	<link rel="stylesheet" type="text/css" href="css/grid.css">
+	<link rel="stylesheet" type="text/css" href="css/menu.css">
+	<link rel="stylesheet" type="text/css" href="css/sharks.css">
+	<link rel="stylesheet" type="text/css" href="css/header.css">
+	<link rel="stylesheet" type="text/css" href="css/footer.css">
+	<!-- Java Script -->
+	<script type="text/javascript" src="js/sharks.js"></script>
+	<!-- Icon -->
+	<link rel="icon" href="img/logos-sharks/logosharks-s.png">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Alicante Sharks Club Football Americano</title>
+</head>
+
+<body>
+
 	<!-- Header
 	---------------------------------------------------------------->
 	<header class="header" id="header">
 		<div class="row">
 			<div class="col-m-2 col-s-2 col-10">
 				<div class="menu-toggle mobile" onclick="show()"> 
-					<i class="fas fa-bars"></i>
+					<div class="minus" id="minus1"></div>
+					<div class="minus" id="minus2"></div>
+					<div class="minus" id="minus3"></div>
+
 				</div>
 				<nav class="menu" id="primary-menu">
                     <ul class="menu-nav">
                        <li class="menu-nav-item"><a href="https://damonbslr.github.io/alicantesharks/historia">Historia</a></li>
                         <li class="menu-nav-item"><a href="https://damonbslr.github.io/alicantesharks/noticias">Noticias</a></li>
-                        <li class="menu-nav-item"><a href="https://damonbslr.github.io/alicantesharks/equipo">Equipo</a>
-                        	<nav class="sub-menu desktop">
+                        <li class="menu-nav-item">
+                        	<a class="desktop" href="https://damonbslr.github.io/alicantesharks/equipo">Equipo</a>
+                        	<a class="mobile" onclick="showsub()">Equipo</a>
+                        	<nav class="sub-menu" id="sub-menu">
 			                    <ul>
 			                        <li class="sub-menu-nav-item"><a href="https://damonbslr.github.io/alicantesharks/equipo/senior-masculino">Senior Masculino</a></li>
 			                        <li class="sub-menu-nav-item"><a href="https://damonbslr.github.io/alicantesharks/equipo/senior-femenino">Senior Femenino</a></li>
