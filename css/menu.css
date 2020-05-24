@@ -36,7 +36,7 @@
         transition: all 800ms ease-out;
     }
     .menu-toggle .minus.click:nth-child(1) {
-        transform: rotate(45deg) translate3d(10px,24px,0);
+        transform: rotate(45deg) translate3d(5px,20px,0);
     }
     .menu-toggle .minus.click:nth-child(2) {
         transition: all 500ms ease-in;
@@ -44,7 +44,7 @@
         opacity: 0;
     }
     .menu-toggle .minus.click:nth-child(3) {
-        transform: rotate(-45deg)translate3d(10px,-24px,0);
+        transform: rotate(-45deg)translate3d(5px,-20px,0);
     }
 }
 
