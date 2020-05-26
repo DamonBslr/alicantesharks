@@ -27,3 +27,23 @@
 .hover-opacity:hover {
 	opacity: 0.9;
 }
+
+.team-text {
+	width: 50%;
+	background-color: white;
+	height: 20vw;
+}
+
+.team-text h3 {
+	padding: 1vw;
+}
+
+
+.team-text p {
+	padding: 1vw;
+}
+
+.team-image {
+	width: 50%;
+}
+
