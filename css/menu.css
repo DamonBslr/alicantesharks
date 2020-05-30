@@ -5,15 +5,31 @@
 @media screen and (max-width: 599px) {
 
 
+        .menu {
+        position: fixed;
+        z-index: 2;
+        top: 80px;
+        left: 0;
+        width: 30%;
+        visibility: hidden;
+        background: rgba(234, 242, 251,0.9);
+        height: 100vh;
+        padding: 50px;
+        box-sizing: border-box;
+        border-right: 1px solid #e4e4e4;
+        transform: translate3d(-100%, 0, 0);
+        transition: all 600ms ease-out;
+    }
+
     .menu-toggle {
-        margin-top: 25px;
-        margin-left: 10px;
+        margin-top: 22px;
+        margin-left: 15px;
     }
 
     .minus {
         background-color: black;
-        height: 8px;
-        width: 60px;
+        height: 5px;
+        width: 50px;
         border-radius: 5px;
         margin: 10px;
         transition: all 800ms ease-out;
@@ -21,38 +37,6 @@
 }
 
 @media screen and (min-width: 600px) and (max-width: 1199px) {
-
-
-    .menu-toggle {
-        margin: 30px 0 0 10px;
-    }
-
-    .minus {
-        background-color: black;
-        height: 8px;
-        width: 60px;
-        border-radius: 5px;
-        margin: 10px;
-        transition: all 800ms ease-out;
-    }
-    .menu-toggle .minus.click:nth-child(1) {
-        transform: rotate(45deg) translate3d(5px,20px,0);
-    }
-    .menu-toggle .minus.click:nth-child(2) {
-        transition: all 500ms ease-in;
-        transform: translate(-30px,0);
-        opacity: 0;
-    }
-    .menu-toggle .minus.click:nth-child(3) {
-        transform: rotate(-45deg)translate3d(5px,-20px,0);
-    }
-}
-
-
-/* Mobile only
--------------------------------------------*/
-
-@media screen and (max-width: 1200px) {
 
 
 
@@ -71,6 +55,46 @@
         transform: translate3d(-100%, 0, 0);
         transition: all 600ms ease-out;
     }
+
+
+
+    .menu-toggle {
+        margin: 30px 0 0 15px;
+    }
+
+    .minus {
+        background-color: black;
+        height: 5px;
+        width: 50px;
+        border-radius: 5px;
+        margin: 10px;
+        transition: all 800ms ease-out;
+    }
+
+
+}
+
+
+/* Mobile only
+-------------------------------------------*/
+
+@media screen and (max-width: 1200px) {
+
+
+
+    .menu-toggle .minus.click:nth-child(1) {
+        transform: rotate(45deg) translate3d(5px,17px,0);
+    }
+    .menu-toggle .minus.click:nth-child(2) {
+        transition: all 500ms ease-in;
+        transform: translate(-30px,0);
+        opacity: 0;
+    }
+    .menu-toggle .minus.click:nth-child(3) {
+        transform: rotate(-45deg)translate3d(5px,-17px,0);
+    }
+
+
 
     .menu.show {
         visibility: visible;

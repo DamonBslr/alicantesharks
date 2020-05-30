@@ -468,4 +468,14 @@ img {
 				padding: 1.5vw 0 0 0;
 			}
 
+
+
+			.contacto {
+				width: 100%
+			}
+
+			.contacto p {
+				text-align: center;
+			}
+
 		}
