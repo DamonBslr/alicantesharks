@@ -267,7 +267,24 @@ img {
 		color: white;
 	}
 
+
+
 	/* (main)
+
+	/* Patrocinadores */
+
+	.patrocinadores-grid {
+		display: flex;
+		grid-template-columns: 20%;
+		margin: 5vw 0 5vw 10vw;
+	}
+
+	.patrocinadores-grid img {
+		width: 15vw;
+		padding-right: 1vw;
+	}
+
+
 	/* News
 	--------------------------------------------------------------------*/
 		.news {
@@ -347,7 +364,7 @@ img {
 			}
 
 			.blog-text {
-				background-color: white;
+				background-color: #eaf2fb;
 				height: 10vw;
 			}
 
@@ -359,15 +376,21 @@ img {
 			}
 
 			.blog-text p {
-				padding: 0 0 0 1vw;
+				padding: 1vw 0 0 1vw;
 				font-family: sans-serif;
 				margin: 0;
-				color: #777b80;
+				color: black;
 
 			}
 
 			.blog-text a {
-				color: #04378B;
+				color: white;
+			}
+
+			.blog-link {
+				background-color: #04378B;
+				width: 6.7vw;
+				border-radius: 4px;
 			}
 
 			.blog-link a {
