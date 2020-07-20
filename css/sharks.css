@@ -392,7 +392,7 @@ img {
 			}
 
 			.blog-link {
-				width: 6.4vw;
+				width: 6.5vw;
 				border-radius: 4px;
 				border: 1.5px solid #04378B;
 				margin: 1vw 0 0 1vw;
@@ -512,5 +512,20 @@ img {
 			.contacto p {
 				text-align: center;
 			}
+
+		}
+
+
+		/* Historia ------------------------------------------------- */
+
+		img.historia {
+			width: 36vw;
+		}
+
+		.historia1 {
+			padding-top: 3vw;
+		}
+
+		.historia2 {
 
 		}
