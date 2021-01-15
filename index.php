@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
 	<!-- Font -->
 	<script src="https://kit.fontawesome.com/480f986a57.js" crossorigin="anonymous"></script>
@@ -12,7 +12,7 @@
 	<link rel="stylesheet" type="text/css" href="css/header.css">
 	<link rel="stylesheet" type="text/css" href="css/footer.css">
 	<!-- Java Script -->
-	<script type="text/javascript" src="js/sharks.js"></script>
+	<script src="js/sharks.js"></script>
 	<!-- Icon -->
 	<link rel="icon" href="img/logos-sharks/logosharks-s.png">
 
@@ -25,40 +25,46 @@
 
 	<!-- Header
 	---------------------------------------------------------------->
-	<?php include 'header.php';?>
+	<?php include "header.html" ?>
 
-	<!--Dia
-	------------------------------------------------------->
+	<!-- Banner ------------------------------------------------------->
 		<div class="row">
 			<div class="col-s-12 col-m-12">
-				<div class="dia mobile">
+				<div class="banner mobile">
 					<img class="logo" src="img/logos-sharks/logotipo-shark.png">
 				</div>
-				<div class="dia desktop">
-					<img src="img/sharksbanner1.jpg">
+				<div class="banner desktop">
+					<img src="img/junior-mixto-banner.jpg">
 				</div>
 			</div>
 		</div>
 
-	<!-- Important News
-	---------------------------------------------------------->		
-	<div class="row">
-		<div class="col-12">
-			<div class="news">
-				<div class="news-content">
-					<h2>COMUNICADO OFICIAL</h2>
-					<h4>Desde el pasado miércoles se han cancelado todas las actividades del club.<br> Ahora más que nunca toda precaución es poca, nosotros también nos quedamos en casa. <br>¡¡Esperamos volver lo antes posible y de la mejor manera!!</h4>
-				</div>
+
+
+		<div class="patrocinadores-grid desktop">
+			<div>
+				<img src="img/patrocinadores/4blooms-logo-white.png">
+			</div>
+			<div>
+				<img src="img/patrocinadores/vips-logo-white.svg">
+			</div>
+			<div>
+				<img src="img/patrocinadores/parabab-text.png">
+			</div>
+			<div>
+				<img src="img/patrocinadores/fontalider-logo-white.png" style="padding-top: 1vw;">
+			</div>
+			<div>
+				<img src="img/patrocinadores/rsportfootball-logo-white.png">
 			</div>
 		</div>
-	</div>
 
-	<!--Main
-	-------------------------------------------------------------------------------------------------->
+
+
+	<!--Main -------------------------------------------------------------------------------------------------->
 	<main>
 
-		<!--News line
-		--------------------------------------------------------->
+		<!--News line --------------------------------------------------------->
 			<div class="row">
 				<div class="col-12">
 					<div class="line">
@@ -69,8 +75,7 @@
 
 
 
-		<!--Blog Row 1
-		-------------------------------------------------------------------->
+		<!--Blog Row 1 -------------------------------------------------------------------->
 			<div class="row">
 				<div class="col-s-12 col-12">
 					<div class="blog-grid">
@@ -79,111 +84,156 @@
 							--------------------------------------->
 							<div class="blog-container left">
 								<div class="blog-image half">
-									<a href="/noticias" class="blog-image-link">
-										<img src="img/blog/juniorvsfirebatslong.jpg">
-									</a>
+									<img src="img/blog/juniorvsfirebatslong.jpg">
 								</div>
 								<div class="blog-text half">
-									<h3>
-										ALC Sharks - VLC Firebats LVFA 26/01/2019
-									</h3><br>
-									<p>
-										Partido de ida contra Valencia Firebats disputado en Alicante. ¡Qué ganas tenemos de volver a los game day!⁣
-									</p>
-									<div class="blog-link desktop">
-										<a href="#">Leer mas</a>
+									<div>
+										<h3>
+											ALC Sharks - VLC Firebats LVFA 26/01/2019
+										</h3>
+									</div>
+									<div>
+										<p>
+											Partido de ida contra Valencia Firebats disputado en Alicante. ¡Qué ganas tenemos de volver a los game day!⁣
+										</p>
+									</div>
+									<div class="blog-link">
+										<a href="noticias/">Leer mas</a>
 									</div>
 								</div>
 							</div>
-							
+
 
 							<!-- Right Blog Container 1
 						--------------------------------------->
 						<div class="blog-container left">
 							<div class="blog-image half">
-								<a href="/noticias" class="blog-image-link">
 									<img src="img/blog/sharkschoollong.jpg">
-								</a>
 							</div>
 							<div class="blog-text half">
-								<h3>
-									¡Alicante Sharks en los colegios!
-								</h3><br>
-								<p>
-									Antes de la cuarentena, pudimos participar en varios colegios enseñándoles qué es el fútbol americano, sus fundamentos básicos y algunos ejercicios.
-								</p>
-								<a href="#" class="blog-link desktop">Leer mas</a>
+								<div>
+									<h3>
+										¡Alicante Sharks en los colegios!
+									</h3>
+								</div>
+								<div>
+									<p>
+										Antes de la cuarentena, pudimos participar en varios colegios enseñándoles qué es el fútbol americano, sus fundamentos básicos y algunos ejercicios.
+									</p>
+								</div>
+								<div class="blog-link">
+										<a href="noticias/">Leer mas</a>
+									</div>
 							</div>
 						</div>
 					</div>
-				</div>	
+				</div>
 			</div>
 
 
-	<!--Blog Row 2
-	-------------------------------------------------------------------->
+	<!--Blog Row 2 -------------------------------------------------------------------->
 		<div class="row">
 			<div class="col-s-12 col-12">
 				<div class="blog-grid">
 
 						<!-- Left Blog Container 1
 							--------------------------------------->
-							<div class="blog-container left quarter">
-								<div class="blog-image quarter">
-									<a href="/noticias" class="blog-image-link">
-										<img src="img/blog/4blooms.jpg">
-									</a>
+							<div class="blog-container left half">
+								<div class="blog-image half">
+									<img src="img/blog/4blooms.jpg">
 								</div>
-								<div class="blog-text quarter">
-									<h3>
-										¡4blooms sirvió de nuevo!
-									</h3><br>
-									<p>
-										Nos complace comunicar que nuestro patrocinador <a href="https://www.instagram.com/4bloomsalicante/" target="_blank">4blooms</a> vuelve a ofrecer servicio.⁣⁣⁣⁣⁣⁣⁣⁣
-										<a href="#" class="blog-link desktop">Leer mas</a>
-									</p>
+								<div class="blog-text half">
+									<div>
+										<h3>
+											¡4blooms sirvió de nuevo!
+										</h3>
+									</div>
+									<div>
+										<p>
+											Nos complace comunicar que nuestro patrocinador 4Blooms vuelve a ofrecer servicio.⁣⁣⁣⁣⁣⁣⁣⁣
+										</p>
+									</div>
+									<div class="blog-link">
+										<a href="noticias/">Leer mas</a>
+									</div>
 								</div>
 							</div>
 							<!--------------------------------------->
 
-						
-						<!-- Right Blog Container 2
-						--------------------------------------->
-						<div class="blog-container right quarter">
-							<div class="blog-image quarter">
-								<a href="/noticias" class="blog-image-link">
-									<img src="img/blog/sharks-sponsor.jpg">
-								</a>
+							<!-- Right Blog Container 1
+							--------------------------------------->
+							<div class="blog-container right half">
+								<div class="blog-image half">
+									<img src="img/blog/4blooms.jpg">
+								</div>
+								<div class="blog-text half">
+									<div>
+										<h3>
+											¡4blooms sirvió de nuevo!
+										</h3>
+									</div>
+									<div>
+										<p>
+											Nos complace comunicar que nuestro patrocinador 4Blooms vuelve a ofrecer servicio.⁣⁣⁣⁣⁣⁣⁣⁣
+										</p>
+									</div>
+									<div class="blog-link">
+										<a href="noticias/">Leer mas</a>
+									</div>
+								</div>
 							</div>
-							<div class="blog-text quarter">
-								<h3>
-									¡Muchas gracias!
-								</h3><br>
-								<p>
-									Hoy queremos agradecer a los patrocinadores..
-								</p>
-								<div class="blog-link desktop" >
-									<a href="#">Leer mas</a>
-								<div>
-							</div>
-						</div>
-						<!--------------------------------------->
+							<!--------------------------------------->
+
+
 
 				</div>
-			</div>	
+			</div>
 		</div>
 
 
+	<!-- Instagram Input -------------------------------------------------------------------------->
+		<div class="instagram desktop">
+			<div class="row">
+				<div class="col-12">
+					<h2 class="insta">¡Síganos en instagram!</h2>
+				</div>
+			</div>
+
+			<div class="row">
+				<a href="https://instagram.com/alicantesharks">
+						<div class="insta-image">
+							<img src="img/insta/insta1.jpg">
+						</div>
+				</a>
+				<a href="https://instagram.com/alicantesharks">
+						<div class="insta-image">
+							<img src="img/insta/insta2.jpg">
+						</div>
+				</a>
+				<a href="https://instagram.com/alicantesharks">
+						<div class="insta-image">
+							<img src="img/insta/insta3.jpg">
+						</div>
+				</a>
+				<a href="https://instagram.com/alicantesharks">
+						<div class="insta-image">
+							<img src="img/insta/insta4.jpg">
+						</div>
+				</a>
+			</div>
+		</div>
+
 	</main>
 
-	<!-- Footer
-	----------------------------------------------------------------------------------------->
+	<!-- Footer ----------------------------------------------------------------------------------------->
 	<footer>
 		<div class="row footer" id="footer">
 			<div class="col-12">
+
 				<div class="footer-logo">
 					<img src="img/logos-sharks/logotipo-shark.png">
 				</div>
+
 				<div class="social-links-grid">
 					<div class="follow-instagram">
 						<a target="_blank" href="https://instagram.com/alicantesharks">
@@ -204,8 +254,8 @@
 
 				<div class="footer-content">
 					<div class="footer-grid">
-						<div class="footer-grid-left">
-							<div class="footer-heading">	
+						<div class="col-3">
+							<div class="footer-heading">
 								<h3>Patrocinadores</h3>
 							</div>
 							<div class="footer-links">
@@ -213,8 +263,8 @@
 								<a href="https://damonbslr.github.io/alicantesharks/convertirse-patrocinador">convertirse en patrocinador</a>
 							</div>
 						</div>
-						
-						<div class="footer-grid-middle">
+
+						<div class="col-3">
 							<div class="footer-heading">
 								<h3>Enlaces</h3>
 							</div>
@@ -222,8 +272,8 @@
 								<a href="https://www.fefa.es/" target="_blank">fefa</a>
 							</div>
 						</div>
-						
-						<div class="footer-grid-right">
+
+						<div class="col-3">
 							<div class="footer-heading">
 								<h3>Contacto</h3>
 							</div>
@@ -240,5 +290,6 @@
 			</div>
 		</div>
 	</footer>
+
 </body>
 </html>
