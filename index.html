@@ -23,49 +23,50 @@
 
 <body>
 
-	<!-- Header
-	---------------------------------------------------------------->
+	<!-- Header ---------------------------------------------------------------->
 	<header class="header" id="header">
 		<div class="row">
-			<div class="col-m-2 col-s-2 col-10">
-				<div class="menu-toggle mobile" onclick="show()">
-					<div class="minus" id="minus1"></div>
-					<div class="minus" id="minus2"></div>
-					<div class="minus" id="minus3"></div>
 
-				</div>
-				<nav class="menu" id="primary-menu">
-                    <ul class="menu-nav">
-                       <li class="menu-nav-item"><a href="https://damonbslr.github.io/alicantesharks/historia">Historia</a></li>
-                        <li class="menu-nav-item"><a href="https://damonbslr.github.io/alicantesharks/noticias">Noticias</a></li>
-                        <li class="menu-nav-item">
-                        	<a class="desktop" href="https://damonbslr.github.io/alicantesharks/equipo">Equipo</a>
-                        	<a class="mobile" onclick="showsub()">Equipo</a>
-                        	<nav class="sub-menu" id="sub-menu">
-			                    <ul>
-			                        <li class="sub-menu-nav-item"><a href="https://damonbslr.github.io/alicantesharks/equipo/senior-masculino">Senior Masculino</a></li>
-			                        <li class="sub-menu-nav-item"><a href="https://damonbslr.github.io/alicantesharks/equipo/senior-femenino">Senior Femenino</a></li>
-			                        <li class="sub-menu-nav-item"><a href="https://damonbslr.github.io/alicantesharks/equipo/junior-mixto">Junior Mixto</a></li>
-			                        <li class="sub-menu-nav-item"><a href="https://damonbslr.github.io/alicantesharks/equipo/cadete-mixto">Cadete Mixto</a></li>
-			                        <li class="sub-menu-nav-item"><a href="https://damonbslr.github.io/alicantesharks/equipo/flag-open">Flag Open</a></li>
-			                        <li class="sub-menu-nav-item"><a href="https://damonbslr.github.io/alicantesharks/equipo/flag-femenino">Flag Femenino</a></li>
-			                        <li class="sub-menu-nav-item"><a href="https://damonbslr.github.io/alicantesharks/equipo/flag-sub15">Flag Sub15</a></li>
-			                    </ul>
-			                </nav>
-	                	</li>
-                        <li class="menu-nav-item"><a href="https://damonbslr.github.io/alicantesharks/calendario">Calendario</a></li>
-                        <li class="menu-nav-item"><a href="https://damonbslr.github.io/alicantesharks/partidos">Partidos</a></li>
-                    </ul>
-                </nav>
-			</div>
-			<div class="col-m-10 col-s-10 col-1">
+			<div class="col-m-10 col-s-10 col-4"> <!-- Sharks Logo -->
 				<div class="sub-logo">
 					<a href="https://damonbslr.github.io/alicantesharks/">
 						<img src="img/logos-sharks/logosharks-texto.png">
 					</a>
 				</div>
 			</div>
-			<div class="col-2 desktop">
+
+			<div class="col-m-2 col-s-2 col-6"> <!-- Navigation -->
+				<div class="menu-toggle mobile" onclick="show()"> <!-- Navigation Toggle mobile only -->
+					<div class="minus" id="minus1"></div>
+					<div class="minus" id="minus2"></div>
+					<div class="minus" id="minus3"></div>
+				</div>
+				<nav class="menu" id="primary-menu"> <!-- Navigation Content (mobile & desktop) -->
+            <ul class="menu-nav">	<!-- main menu -->
+            	<li class="menu-nav-item"><a href="https://damonbslr.github.io/alicantesharks/historia">Historia</a></li>
+              <li class="menu-nav-item"><a href="https://damonbslr.github.io/alicantesharks/noticias">Noticias</a></li>
+              <li class="menu-nav-item">
+              	<a class="desktop" href="https://damonbslr.github.io/alicantesharks/equipo">Equipo</a>
+                <a class="mobile" onclick="showsub()">Equipo</a>
+                <nav class="sub-menu" id="sub-menu">	<!-- sub menu -->
+									<ul>
+                    <li class="sub-menu-nav-item"><a href="https://damonbslr.github.io/alicantesharks/equipo/senior-masculino">Senior Masculino</a></li>
+                    <li class="sub-menu-nav-item"><a href="https://damonbslr.github.io/alicantesharks/equipo/senior-femenino">Senior Femenino</a></li>
+                    <li class="sub-menu-nav-item"><a href="https://damonbslr.github.io/alicantesharks/equipo/junior-mixto">Junior Mixto</a></li>
+                    <li class="sub-menu-nav-item"><a href="https://damonbslr.github.io/alicantesharks/equipo/cadete-mixto">Cadete Mixto</a></li>
+                    <li class="sub-menu-nav-item"><a href="https://damonbslr.github.io/alicantesharks/equipo/flag-open">Flag Open</a></li>
+                    <li class="sub-menu-nav-item"><a href="https://damonbslr.github.io/alicantesharks/equipo/flag-femenino">Flag Femenino</a></li>
+                    <li class="sub-menu-nav-item"><a href="https://damonbslr.github.io/alicantesharks/equipo/flag-sub15">Flag Sub15</a></li>
+									</ul>
+              	</nav>
+          		</li>
+              <li class="menu-nav-item"><a href="https://damonbslr.github.io/alicantesharks/calendario">Calendario</a></li>
+              <li class="menu-nav-item"><a href="https://damonbslr.github.io/alicantesharks/partidos">Partidos</a></li>
+            </ul>
+        </nav>
+			</div>
+
+			<div class="col-2 desktop">		<!-- Header Social Links Color Change for desktop only -->
 				<div class="social-links-grid">
 					<a target="_blank" href="https://instagram.com/alicantesharks">
 						<i class="fab fa-instagram-square" onmouseover="instaheader()" onmouseout="normalheader()"></i>

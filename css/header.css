@@ -123,15 +123,13 @@
 		}
 
 		.sub-logo {
-			position: absolute;
-			top: 0vw;
-			left: 8.33vw;
+
 		}
 
 		.sub-logo img {
 			width: 14vw;
 			height: auto;
-			padding: 1vw 0 1vw 0;
+			padding: 1vw 0 1vw 7vw;
 		}
 
 		.menu-nav {
@@ -139,7 +137,7 @@
 		 	grid-template-columns: 25%;
 		 	margin: 0vw;
 		 	font-size: 1.5vw;
-		 	padding: 1.5vw 0 0 33.33vw;
+		 	padding: 1.5vw 0 0 0;
 		 	list-style: none;
 		}
 
