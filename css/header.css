@@ -47,17 +47,17 @@
 		width: 100vw;
 	}
 
-	.dia {
+	.banner {
 		margin-top: 150px;
 	}
 
-	.dia img {
+	.banner img {
 	width: 50%;
 	margin-left: 25%;
 	margin-right: 25%;
 	}
 
-	.dia img.logo {
+	.banner img.logo {
 		margin-left: 22.5%
 	}
 

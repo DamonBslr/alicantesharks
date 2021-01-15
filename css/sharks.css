@@ -125,7 +125,7 @@ img {
 		padding: 0;
 		color: #eaf2fb;
 		font-size: 5vw;
-		padding: 3vw 1.85vw 0vw 0vw; 
+		padding: 3vw 1.85vw 0vw 0vw;
 	}
 
 	h2 {
@@ -314,7 +314,7 @@ img {
 			margin: 0;
 		}
 
-	
+
 	/* Main
 	------------------------------------------------------------------------------------------------------*/
 		main {
@@ -359,7 +359,7 @@ img {
 
 			.half {
 				width: 40vw;
-		
+
 			}
 
 			.quarter {
@@ -422,7 +422,7 @@ img {
 				color: #eaf2fb;
 			}
 
-			/* Insta Input 
+			/* Insta Input
 			-------------------------------------------------------*/
 
 			.instagram{
@@ -440,7 +440,7 @@ img {
 
 
 
-			/* Two column site 
+			/* Two column site
 			-------------------------------------------------------*/
 
 			.page-heading h1 {
@@ -497,7 +497,7 @@ img {
 
 			img.rsport {
 				padding: 1.5vw 0 0 0;
-			} 
+			}
 
 			img.fontalider {
 				padding: 1.5vw 0 0 0;
