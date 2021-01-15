@@ -24,7 +24,7 @@
         left: 0;
         width: 30%;
         visibility: hidden;
-        background: rgba(234, 242, 251,0.9);
+        background: rgba(225, 225, 225, 0.5);
         height: 100vh;
         padding: 50px;
         box-sizing: border-box;
@@ -69,7 +69,7 @@
         left: 0;
         width: 30%;
         visibility: hidden;
-        background: rgba(234, 242, 251,0.9);
+        background: rgba(225, 225, 225, 0.5);
         height: 100vh;
         padding: 50px;
         box-sizing: border-box;
