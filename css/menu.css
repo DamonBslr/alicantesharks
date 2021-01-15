@@ -35,7 +35,7 @@
 
     .menu-toggle {
         margin-top: 25px;
-        margin-left: 0px;
+        margin-left: 11vw;
     }
 
     .minus {
@@ -81,7 +81,8 @@
 
 
     .menu-toggle {
-        margin: 30px 0 0 15px;
+        margin-top: 30px;
+        margin-left: 13vw;
     }
 
     .minus {
